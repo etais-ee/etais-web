@@ -3,10 +3,10 @@ layout: landing
 permalink: /partners/
 title: "About ETAIS"
 ---
-<a href="/about/" class="btn-info"> Intro</a>
-<a href="/funding/" class="btn-info"> Funding</a>
-<a href="/goals/" class="btn-info"> Goals</a>
-<a href="/partners/" class="btn-success"> Partners</a>
+<a href="../about/" class="btn-info"> Intro</a>
+<a href="../funding/" class="btn-info"> Funding</a>
+<a href="../goals/" class="btn-info"> Goals</a>
+<a href="../partners/" class="btn-success"> Partners</a>
 
 **ETAIS partners**
 
