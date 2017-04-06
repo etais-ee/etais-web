@@ -4,13 +4,15 @@ permalink: /
 title: "Estonian Scientific Computing Infrastructure"
 ---
 
-<div class="notice-info">
+<div class="notice-warning">
 	<h3>Estonian Scientific Computing Infrastructure (ETAIS) opens new frontiers for compute- and data-intensive science.</h3>
 	<div class="inline-btn">
 		<a href="#" class="btn-success"> Learn more</a>
 		<a href="#" class="btn-success"> Start using</a>
 	</div><!-- /.inline-btn -->
 </div>
+
+Rutt is testing
 
 <div class="tiles">
 {% for post in site.posts %}
