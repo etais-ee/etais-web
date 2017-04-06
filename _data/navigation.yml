@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: Overview
+- title: About
   url: /
   image:
 
@@ -8,13 +8,17 @@
   url: /resources/
   image:
 
-- title: Statistics
+- title: Stats
   url: /stats/
   image:
 
 - title: Using ETAIS
   url: /using/
   excerpt:
-
-- title: Self-Service
+  
+- title: Contact
+  url: /contact/
+  excerpt:
+  
+- title: Portal
   url: https://minu.etais.ee/
