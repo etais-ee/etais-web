@@ -1,6 +1,6 @@
 ---
 layout: landing
-permalink: /resources
+permalink: /resources/
 title: "ETAIS resources"
 ---
 
