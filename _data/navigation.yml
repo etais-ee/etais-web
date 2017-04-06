@@ -1,17 +1,17 @@
 # Site navigation links
 
 - title: About
-  url: /
+  url: /about/
   image:
-
+  
 - title: Resources
   url: /resources/
   image:
-
+  
 - title: Stats
   url: /stats/
   image:
-
+  
 - title: Using ETAIS
   url: /using/
   excerpt:
