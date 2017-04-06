@@ -10,7 +10,7 @@ title: "About ETAIS"
 
 **Goals of ETAIS project**
 
-New ETAIS project "ETAIS 2" started in the beginning of 2017 and its main goal is to integrate the infrastructures created during the previous ETAIS project. A brand new component of ETAIS project will be a self-service portal that allows users to access the resources regardless of their location or operating system used. Computing and data storage capabilities as well as the customer support will be significally improved.
+New ETAIS project "ETAIS 2" started in the beginning of 2017 and its main goal is to integrate the infrastructures created during the previous ETAIS project. A brand new component of ETAIS project will be a self-service portal that allows users to access the resources regardless of their location or operating system used. Computing and data storage (including mid-term archiving) capabilities as well as the customer support will be significally improved.
 
 The ETAIS infrastructure will continue to be divided between the four institutions – the project aims to optimise resources and share costs (staff, electricity) between partners. It is also important that the project’s partners create a shared knowledge base and therefore improve the quality of the ETAIS services.
 
