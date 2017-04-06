@@ -3,10 +3,10 @@ layout: landing
 permalink: /about/
 title: "About ETAIS"
 ---
-<a href="about/" class="btn-success"> Intro</a>
-<a href="funding/" class="btn-info"> Funding</a>
-<a href="goals/" class="btn-info"> Goals</a>
-<a href="partners/" class="btn-info"> Partners</a>
+<a href="../about/" class="btn-success"> Intro</a>
+<a href="../funding/" class="btn-info"> Funding</a>
+<a href="../goals/" class="btn-info"> Goals</a>
+<a href="../partners/" class="btn-info"> Partners</a>
 
 **ETAIS - Estonian Scientific Computing Infrastructure**
 
