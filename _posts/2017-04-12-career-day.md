@@ -1,7 +1,7 @@
 ---
 layout: article
 permalink: /web
-title: "ETAIS hiring new people"
+title: "ETAIS is hiring new people"
 ---
 
 On April 7 ETAIS project managers took part in Institute of Computer Science career day to find new talents for ETAIS project.
