@@ -1,11 +1,12 @@
 ---
 layout: landing
 permalink: /
-title: "Estonian Scientific Computing Infrastructure"
+title: "Estonian Scientific Computing Infrastructure (ETAIS)"
 ---
 
-<div class="notice-warning">
-	<h3>Estonian Scientific Computing Infrastructure (ETAIS) opens new frontiers for compute- and data-intensive science.</h3>
+<div class="notice-info">
+	<h3>ETAIS is a National Research Infrastructure of Estonia. It provides infrastructure and application support
+	services to the research communities and R&D companies.</h3>
 	<div class="inline-btn">
 		<a href="#" class="btn-success"> Learn more</a>
 		<a href="https://minu.etais.ee" class="btn-success"> Start using</a>
