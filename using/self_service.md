@@ -15,7 +15,7 @@ minimise bureaucracy of negotiating access, quotas and payments.
 
 The main concepts are as follows:
 
-![Overview](/images/etais-structure.png)
+![Overview](../images/etais-structure.png)
 
 * **Organization** is a standalone entity that represents a research group or a company. Organization is responsible for the 
 actions of users connected to it in different [roles](#roles).
@@ -55,7 +55,7 @@ Alternatively, one can login using an account from [eduGAIN](https://www.geant.o
 
 Self-Service Portal is available from: [https://minu.etais.ee](https://minu.etais.ee)
 
-![Login](/images/login.png)
+![Login](../images/login.png)
 
 > *NB! Users need to accept Terms of Service presented on the first login for account activation!*
 
@@ -98,7 +98,7 @@ User roles are hierarchical in a way that organization owners can do everything 
 User workspace is a personal profile management space. It allows to configure user notifications,
 SSH public keys, update personal profile data etc.
 
-![User workspace](/images/user-dashboard.png)
+![User workspace](../images/user-dashboard.png)
 
 Menu entries available within user workspace:
 
@@ -112,27 +112,27 @@ Menu entries available within user workspace:
 
 Access is done by clicking on user avatar and selecting one of the entries from a pop-up menu.
 
-![User profile link](/images/user-profile-link.png)
+![User profile link](../images/user-profile-link.png)
 
 ### Organization and project workspace selector
 Navigation between different organization and project workspaces are done with the help of the workspace selector available in the header row.
 
-![Workspace selector button](/images/workspace-selector-button.png)
+![Workspace selector button](../images/workspace-selector-button.png)
 
 ### Selecting organization workspace
 Open workspace selector and click on "Select" button of target organization.
 
-![Organization workspace selection](/images/workspace-selector-org-selection.png)
+![Organization workspace selection](../images/workspace-selector-org-selection.png)
 
 ### Selecting project workspace
 Open workspace selector, mark target organization and click on "Select" button of target project.
 
-![Project workspace selection](/images/workspace-selector-project-selection.png)
+![Project workspace selection](../images/workspace-selector-project-selection.png)
 
 ## Organization workspace
 Organization workspace allows to manage projects, subscriptions to resource providers and organization members. It is also intended to provide summary, accounting and auditing information regarding organization, projects and providers. To be able to access organization workspace, you need to have a organization owner role.
 
-![Organization workspace](/images/org-dashboard.png)
+![Organization workspace](../images/org-dashboard.png)
 
 Menu entries available within organization workspace:
 
@@ -149,11 +149,11 @@ Menu entries available within organization workspace:
 ### Adding a project
 Projects can be added by selecting "Projects" from the menu and clicking on "Add project" button. 
 
-![Adding a project](/images/project-add.png)
+![Adding a project](../images/project-add.png)
 
 "Create project" form requires you to enter project name and optionally project description. If you need to attach security class label for the project you should select one from the list presented. Submit form by clicking on "Add project" button.
 
-![Create project form](/images/project-add-form.png)
+![Create project form](../images/project-add-form.png)
 
 ### Inviting a user
 User workspace access and role management can be done on two separate levels:
@@ -163,23 +163,23 @@ User workspace access and role management can be done on two separate levels:
 
 Organization level invites can be created by selecting "Team" from the organization workspace menu and clicking on "Invitations" management tab.
 
-![Invites management tab](/images/org-team-invite.png)
+![Invites management tab](../images/org-team-invite.png)
 
 For creating a new invitation please click on "Invite user" button.
 
-![Creating an invite](/images/org-team-invite-create.png)
+![Creating an invite](../images/org-team-invite-create.png)
 
 > *NB! By sending an invite to a user you also accredit this user to become an organization member! In order to complete
 the joining process invited user needs to login with the URL provided in the invitation email.*  
 
 "Invite user" form requires target user email address, initial project and role selection. Submit form by clicking on "Invite user" button.
 
-![Invite creation form](/images/org-team-invite-form.png)
+![Invite creation form](../images/org-team-invite-form.png)
 
 ## Project workspace
 Project workspace provides tools and information required for day-to-day work and oversight over the managed IT infrastructure. Access is done via workspace selector in the top section of user interface.
 
-![Project workspace](/images/project-dashboard.png)
+![Project workspace](../images/project-dashboard.png)
 
 Menu entries available within project dashboard:
 
@@ -192,24 +192,24 @@ Menu entries available within project dashboard:
 ## Adding a VPC
 Virtual Private Cloud resource package can be added by selecting "Resources" and "Private Clouds" from the menu and clicking on "Add private cloud" button.
 
-![Add VPC](/images/project-vpc-add.png)
+![Add VPC](../images/project-vpc-add.png)
 
 > *NB! There are several Virtual Private Cloud providers available from the Service Store. You need to provision at least one VPC package
 from suitable provider in order to be able to create virtual machines.*
 
-![Selecting VPC provider](/images/project-vpc-add-provider-select.png)
+![Selecting VPC provider](../images/project-vpc-add-provider-select.png)
 
 It is mandatory to input VPC Tenant name and choose initial resource package, by clicking on "VPC package: Show choices" selector.
 
-![Adding VPC provider - step 1](/images/project-vpc-add-form-step1.png)
+![Adding VPC provider - step 1](../images/project-vpc-add-form-step1.png)
 
 Currently there are four VPC resource packages categories listed: trial, small, medium and large. Each category can have several resources packages mapped. For selecting a VPC resource package please mark suitable package entry and click on "Select" button, returning to the previous form.
 
-![Adding VPC provider - step 2](/images/project-vpc-add-form-step2.png)
+![Adding VPC provider - step 2](../images/project-vpc-add-form-step2.png)
 
 We also strongly suggest to fill also VPC description field. Other input fields are autofilled and can be optionally customized, if required. "Checkout summary" on the right pane will provide detailed overview of VPC resouce package purchase.
 
-![Adding VPC provider - step 3](/images/project-vpc-add-form-step3.png)
+![Adding VPC provider - step 3](../images/project-vpc-add-form-step3.png)
 
 > *NB! Provisioned VPC resource package will be automatically enabled for the project as a VM provider! For other projects it can be enabled by the organization owner under Provider management within organization workspace.*
 
@@ -218,25 +218,25 @@ We also strongly suggest to fill also VPC description field. Other input fields 
 
 VMs can be added by selecting "Resources: Virtual machines" from the menu and clicking on "Add virtual machine" button. 
 
-![Adding a VM](/images/project-vm-add.png)
+![Adding a VM](../images/project-vm-add.png)
 
 In case you have multiple VPC providers enabled within the project you will need to select also VM provider. "Create Openstack instance" form requires VM name and selection of VM image.
 
-![Adding a VM - step 1](/images/project-vm-add-form-step1.png)
+![Adding a VM - step 1](../images/project-vm-add-form-step1.png)
 
 Please select operating system for a VM and click on "Select" button, returning to the form.
 
-![Adding a VM - step 2](/images/project-vm-add-form-step2.png)
+![Adding a VM - step 2](../images/project-vm-add-form-step2.png)
 
 It is mandatory to select initial VM resource profile ie flavor, by clicking on "Flavor: Show choices" selector.
 
-![Adding a VM - step 3](/images/project-vm-add-form-step3.png)
+![Adding a VM - step 3](../images/project-vm-add-form-step3.png)
 
 Flavor will set initial resource profile for a VM - how much RAM, CPU cores and storage it will have.
 
 > *NB! VM images contain their minimum requirements information and non-matching VM flavors are disabled automatically!*
 
-![Adding a VM - step 4](/images/project-vm-add-form-step4.png)
+![Adding a VM - step 4](../images/project-vm-add-form-step4.png)
 
 Selecting VM flavor will also update "System volume size" with the option to override it manually (to higher custom value). Data volume is always provisioned with a VM and its size can be customized and incremented in 1GB steps. 
 
@@ -244,29 +244,29 @@ By default provisioned virtual machines expect users to login using SSH keys. In
 
 > *There has to be at least one SSH public key added to user profile for it to appear in SSH key selector list!*
 
-![Adding a VM - step 5](/images/project-vm-add-form-step5.png)
+![Adding a VM - step 5](../images/project-vm-add-form-step5.png)
 
 > *NB! Different VM images have different default user names for SSH logins! For example: CentOS images use "centos" user, Ubuntu images use "ubuntu" user, Windows images use "Administrator" user.*
 
-![Adding a VM - step 6](/images/project-vm-add-form-step6.png)
+![Adding a VM - step 6](../images/project-vm-add-form-step6.png)
 
 By default no incoming connections will be allowed for a VM. Predefined Security Groups that contain firewall rules must be linked to a VM in order to open up access (like ssh, http, etc).
 
 > *NB! VM create form will automatically include "default" security group which enables egress (ie outgoing) traffic for a VM and which is required in order to reply to any of the incoming packets!* 
 
-![Adding a VM - step 7](/images/project-vm-add-form-step7.png)
+![Adding a VM - step 7](../images/project-vm-add-form-step7.png)
 
 VM needs to be connected to at least one of the VPC (internal) networks and also to external network via floating IP - if extenal/public access to VM is required. 
 
 > *Floating IP is technically realized as 1:1 NAT between VM internal ip and public network ip.*
 
-![Adding a VM - step 8](/images/project-vm-add-form-step8.png)
+![Adding a VM - step 8](../images/project-vm-add-form-step8.png)
 
 We strongly suggest to add also VM description. In order to provision the VM please click on "Purchase" button.
 
 > *On the right pane there will be "Checkout summary" with the purchase overview and indicative VM cost (as part of VPC package cost).*
 
-![Adding a VM - step 9](/images/project-vm-add-form-step9.png)
+![Adding a VM - step 9](../images/project-vm-add-form-step9.png)
 
 VM should reach into "Active" status when successfully provisioned. "Access" field will show IP address to access VM over SSH (Linux) or over RDP (Windows). 
 
@@ -274,21 +274,21 @@ VM should reach into "Active" status when successfully provisioned. "Access" fie
 
 > *OpenStack VPC VMs will have additional 64MB virtual hard disk attached to VM which functions as cloud-init configuation drive (not supported by self-service yet, only user-data support at the moment).*
 
-![VM details](/images/project-vm-details.png)
+![VM details](../images/project-vm-details.png)
 
 ## VPC Security Groups management
 Security Groups are scoped and managed under VPC package. For managing Security Groups and their rules please go into VPC detailview by clicking on provisioned VPC package name.
 
-![Creating SecGroup - step 1](/images/project-vpc-details.png)
+![Creating SecGroup - step 1](../images/project-vpc-details.png)
 
 Existing Security Groups present within current VPC are listed under "Security groups" tab.
 
-![Creating SecGroup - step 2](/images/project-vpc-secgroups.png)
+![Creating SecGroup - step 2](../images/project-vpc-secgroups.png)
 
 For adding new Security Group please click on "Create" button.
 
-![Creating SecGroup - step 3](/images/project-vpc-secgroups-create.png)
+![Creating SecGroup - step 3](../images/project-vpc-secgroups-create.png)
 
 It is required to enter Security Group name and to add at least one rule. We recommend adding a description as well.
 
-![Creating SecGroup - step 4](/images/project-vpc-secgroups-form.png)
+![Creating SecGroup - step 4](../images/project-vpc-secgroups-form.png)
