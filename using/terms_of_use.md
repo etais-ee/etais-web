@@ -6,7 +6,7 @@ title: "Using ETAIS"
 
 <a href="../terms_of_use/" class="btn-success"> Terms of use</a>
 <a href="../start_using/" class="btn-info"> Start using</a>
-<a href="https://minu.etais.ee" class="btn-info"> Self-service portal</a>
+<a href="../self_service/" class="btn-info"> Self-service portal</a>
 
 ## Terms of use
 

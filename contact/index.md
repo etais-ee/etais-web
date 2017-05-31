@@ -1,7 +1,7 @@
 ---
 layout: landing
 permalink: /contact/
-title: "Contacts"
+title: "Contact"
 ---
 
 ## Estonian Scientific Computing Infrastructure

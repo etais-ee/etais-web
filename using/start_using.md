@@ -6,13 +6,18 @@ title: "Using ETAIS"
 
 <a href="../terms_of_use/" class="btn-info"> Terms of use</a>
 <a href="../start_using/" class="btn-success"> Start using</a>
-<a href="https://minu.etais.ee" class="btn-info"> Self-service portal</a>
+<a href="../self_service/" class="btn-info"> Self-service portal</a>
 
-ETAIS is primarly for scientists and students in Estonia.
+ETAIS is intended for research communities in Estonia as well as R&D companies. To get access to the resources,
+an usage agreement must be made signed ETAIS and an organization willing to join.
 
-**First step** is to create a new user account in [ETAIS portal](https://taat.grid.ee/ "ETAIS portal") (see the [user guide ](http://etais.ee/en/guide-create-etais-account/ "New ETAIS account")for creating a new account)
+>  Please send an email [etais@etais.ee](mailto:etais@etais.ee) if you want to join!
 
-**After that** follow the manual of the cluster you’re going to use:
+Once an organization account has been created, provisioning and access to its resources is configured through
+the self-service portal. To access it you need an account from [TaaT](http://taat.edu.ee/) or
+[eduGAIN](https://www.geant.org/Services/Trust_identity_and_security/eduGAIN).
+
+### Instructions for batch systems
 
 - Clusters of University of Tartu (UT):  
 -- [Your first login](http://etais.ee/en/first-login-to-uts-rocket-cluster/ "First login guide")  

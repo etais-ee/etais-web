@@ -1,6 +1,5 @@
 ---
 layout: article
-permalink: /kick-off
 title: "ETAIS-2 has kicked off"
 ---
 

@@ -3,22 +3,22 @@
 - title: About
   url: /about/
   image:
-  
+
 - title: Resources
   url: /resources/
   image:
-  
-- title: Stats
-  url: https://api.etais.ee/stats/
-  image:
-  
+
+#- title: Stats
+#  url: https://api.etais.ee/stats/
+#  image:
+
 - title: Using ETAIS
   url: /using/
   excerpt:
-  
+
 - title: Contact
   url: /contact/
   excerpt:
-  
+
 - title: Portal
   url: https://minu.etais.ee/

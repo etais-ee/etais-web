@@ -8,8 +8,8 @@ title: "Estonian Scientific Computing Infrastructure (ETAIS)"
 	<h3>ETAIS is a National Research Infrastructure of Estonia. It provides infrastructure and application support
 	services to the research communities and R&D companies.</h3>
 	<div class="inline-btn">
-		<a href="#" class="btn-success"> Learn more</a>
-		<a href="https://minu.etais.ee" class="btn-success"> Start using</a>
+		<a href="self_service/" class="btn-success"> Self-Service Guide</a>
+		<a href="https://minu.etais.ee" class="btn-success"> Start using!</a>
 	</div><!-- /.inline-btn -->
 </div>
 
