@@ -12,18 +12,20 @@ title: "About ETAIS"
 
 **University of Tartu: High Performance Computing Centre**  
 - coordinating ETAIS project  
-- providing cluster computing and data storage resources  
-- cloud solution and self-service portal
+- providing batch computing and data storage resources  
+- providing OpenStack-based cloud service
+- ETAIS self-service portal
 
 **Tallinn University of Technology: TTU HPC**  
-- providing cluster computing and data storage resources  
+- providing batch computing and data storage resources  
 
 **National Institute of Chemical Physics and Biophysics: Laboratory of High Energy and Computational Physics**  
-- providing cluster computing and data storage resources  
+- providing cluster computing and data storage resources
+- OpenStack-based cloud service
+- ETAIS self-service portal
 
-**Information Technology Foundation for Education (HITSA/EENet): Grid Computing Department**  
+**Information Technology Foundation for Education (HITSA/EENet)**  
 - providing TAAT authorisation service  
-- providing monitoring system solution  
 - providing cluster computing resources  
 
 
