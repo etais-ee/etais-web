@@ -10,6 +10,8 @@ ETAIS self-service portal is a single entry point for provisioning and managing 
 shared by ETAIS consortium members - UT, TTU, NICPB and HITSA - as well as public cloud providers. It is aimed at
 research groups affiliated with Estonian research and development institutions from both public and private sector.
 
+> Access it at [https://minu.etais.ee](https://minu.etais.ee).
+
 Self-service portal offers research groups a way to collaborate on using and sharing research infrastructure to
 minimise bureaucracy of negotiating access, quotas and payments.
 

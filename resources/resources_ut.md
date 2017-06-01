@@ -26,3 +26,6 @@ title: "ETAIS resources"
 - InfiniBand datastorage ca 130 TB  
 
 [Read more about Vedur](http://portal.hpc.ut.ee/web/guest/vedur-cluster "UT HPC Vedur info")
+
+** Guides **
+-- [All user guides](http://portal.hpc.ut.ee/web/guest/guides "UT HPC guides")  
