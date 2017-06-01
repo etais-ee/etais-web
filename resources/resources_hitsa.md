@@ -21,4 +21,4 @@ title: "ETAIS resources"
 - 10 GbE connections  
 - 64 TB shared storage  
 
-[Read more about KBFI cluster](http://www.eenet.ee/EENet/grid_en.html "EENet/HITSA cluster info")
+[Read more about EENet cluster](http://www.eenet.ee/EENet/grid_en.html "EENet/HITSA cluster info")
