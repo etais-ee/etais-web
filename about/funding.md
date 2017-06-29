@@ -12,5 +12,4 @@ title: "About ETAIS"
 
 Building ETAIS infrastructure has been largely funded by European Regional Development Fund. 
 
-![alt text](http://etais.ee/wp-content/themes/etais/img/eu.png "EU Fund logo")
 
