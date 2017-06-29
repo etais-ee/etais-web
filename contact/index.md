@@ -28,5 +28,5 @@ E-mail: mario.kadastik@cern.ch
 
 **Information Technology Foundation for Education (HITSA)**
 
-Peeter Russak   
-E-mail: peeter.russak@eenet.ee
+Sven Hüsson   
+E-mail: sven.hysson@eenet.ee
