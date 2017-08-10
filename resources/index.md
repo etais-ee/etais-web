@@ -9,22 +9,6 @@ title: "ETAIS resources"
 <a href="../resources_kbfi/" class="btn-info"> KBFI</a>
 <a href="../resources_hitsa/" class="btn-info"> HITSA/EENet</a>
 
-**Hardware resources**
-
-| Type     | Provided by  | CPU-cores | GPU-cores | RAM   | Disk  | Network | User guide |
-| -------- | :----------: | :----:| -----: | :---: |  :---: | :---:   | :--------: | 
-| SLURM    | UT    |    | |
-| OpenStack| UT    |    | |
-| Fat Node | UT |    | | 
-| SLURM    | NICPB |    | | 
-| SLURM    | NICPB |    | | 
-| OpenStack| NICPB      |   | | 
-| SLURM    | TTU |  | |
-| OpenStack    | TTU |  | |
-| SLURM    | HITSA |  | |
-
-
-
 
 **ETAIS is a consortium of four partners**
 
