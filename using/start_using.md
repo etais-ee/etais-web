@@ -12,7 +12,7 @@ title: "Start using"
 ETAIS is intended for research communities in Estonia as well as R&D companies. To get access to the resources,
 an usage agreement must be made signed ETAIS and an organization willing to join.
 
->  Please send an email [etais@etais.ee](mailto:etais@etais.ee) if you want to join!
+> Please fill in a [form](https://goo.gl/AgZBdp) for joining ETAIS! 
 
 Once an organization account has been created, provisioning and access to its resources is configured through
 the self-service portal. To access it you need an account from [TaaT](http://taat.edu.ee/) or
