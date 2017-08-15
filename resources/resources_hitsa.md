@@ -14,11 +14,11 @@ title: "ETAIS resources"
 - Authentication system [TAAT](http://taat.edu.ee/main/about/?lang=en "TAAT English page")  
 - Monitoring system  
 
-**HITSA HPC cluster**  
-- 41 nodes (2x Intel Xeon 4core/6core, 24-48 GB RAM, 10 krpm HDD)  
-- 8 Nvidia Tesla K20m GPGPU (2496 core, 5 GB RAM)  
-- 32 Nvidia Tesla T10 GPGPU (240 core, 4 GB RAM)  
-- 10 GbE connections  
-- 64 TB shared storage  
+**HITSA HPC cluster**
+- 10 nodes (2x Intel Xeon 4core/6core, 48 GB RAM, 10 krpm HDD)
+- 7 Nvidia Tesla K20m GPGPU (2496 core, 5 GB RAM)
+- 1 Nvidia Tesla K40m GPGPU (2880 core, 12 GB RAM)
+- 10 GbE connections
+- 25 TB shared storage
 
 [Read more about EENet cluster](http://www.eenet.ee/EENet/grid_en.html "EENet/HITSA cluster info")
