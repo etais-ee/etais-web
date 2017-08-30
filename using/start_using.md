@@ -10,7 +10,7 @@ title: "Start using"
 <a href="../openstack_flavors/" class="btn-info"> OpenStack flavors</a>
 
 ETAIS is intended for research communities in Estonia as well as R&D companies. To get access to the resources,
-an usage agreement must be made signed ETAIS and an organization willing to join.
+an usage agreement must be made signed ETAIS and an organization requesting to join.
 
 > Please fill in a [form](https://goo.gl/AgZBdp) for joining ETAIS! 
 
