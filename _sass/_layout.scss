@@ -32,6 +32,10 @@
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+
+  img {
+    margin-top: -30px;
+  }
 }
 
 
@@ -263,6 +267,18 @@
 			@include font-size(32);
 		}
 	}
+  h3 {
+		@include font-size(16);
+    font-weight: 400;
+		@include media($medium) {
+			@include font-size(16);
+
+		}
+		@include media($large) {
+			@include font-size(20);
+		}
+	}
+
 }
 // page header
 .page-feature {
