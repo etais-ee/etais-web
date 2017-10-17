@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /funding/
 title: "About ETAIS"
 ---

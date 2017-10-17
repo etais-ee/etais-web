@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /about/
 title: "About ETAIS"
 ---

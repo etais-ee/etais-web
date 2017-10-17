@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /openstack_flavors/
 title: "OpenStack flavors"
 ---

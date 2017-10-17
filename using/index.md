@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /using/
 title: "Using ETAIS"
 ---

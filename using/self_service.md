@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /self_service/
 title: "ETAIS Self-Service Guide"
 ---

@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /partners/
 title: "About ETAIS"
 ---

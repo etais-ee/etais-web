@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /start_using/
 title: "Start using"
 ---

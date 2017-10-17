@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 permalink: /resources/
 title: "ETAIS resources"
 ---
