@@ -2,24 +2,35 @@
 layout: default
 ---
 
-<div id="main" role="main">			
-	<div class="wrap">
-		{% if page.image.feature %}
-		<div class="page-feature">
-			<div class="page-image">
-				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
-				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-			</div><!-- /.page-image -->
-		</div><!-- /.page-feature -->
-		{% endif %}
-		<div class="page-title">
-			<h1>{{ page.title }}</h1>
-			{% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
-		</div>
-		<div class="archive-wrap">
-			<div class="page-content">
-				{{ content }}
-			</div><!-- /.page-content -->
-		</div class="archive-wrap"><!-- /.archive-wrap -->
-	</div><!-- /.wrap -->
-</div><!-- /#main -->
+<div class="page-lead" style="background-image:url({{ site.url }}/images/bg.png)">
+      <div class="wrap page-lead-content">
+        <h2>Estonian Scientific Computing Infrastructure (aka ETAIS)</h2>
+        <h3>ETAIS provides infrastructure and application support
+	services to the research communities and R&D companies.</h3>
+        <a href="self_service/" class="btn-inverse">Self-Service Guide</a> &nbsp; or &nbsp; <a href="start_using/" class="btn-inverse">Start using!</a>
+      </div><!-- /.page-lead-content -->
+</div>
+
+<div id="page-wrapper">
+  <div id="main" role="main">
+    <div class="wrap">
+      {% if page.image.feature %}
+      <div class="page-feature">
+        <div class="page-image">
+          <img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}">
+          {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+        </div><!-- /.page-image -->
+      </div><!-- /.page-feature -->
+      {% endif %}
+      <div class="page-title">
+        <h1>{{ page.title }}</h1>
+        {% if page.excerpt %}<h2>{{ page.excerpt }}</h2>{% endif %}
+      </div>
+      <div class="archive-wrap">
+        <div class="page-content">
+          {{ content }}
+        </div><!-- /.page-content -->
+      </div class="archive-wrap"><!-- /.archive-wrap -->
+    </div><!-- /.wrap -->
+  </div><!-- /#main -->
+</div>
