@@ -23,3 +23,7 @@ researchers to successfully operate in computing and data-intensive research dis
 The infrastructure includes hardware (computers, storage media, network devices), the server rooms, software and
 support services necessary for the operation of the helpdesk. ETAIS infrastructure is in compliance with international
 cloud and high performance computing infrastructures and follows the best practices of the field.
+
+**Design**
+
+<a href="etais_design.zip">ETAIS logo and design elements (including T-shirts)</a>.
