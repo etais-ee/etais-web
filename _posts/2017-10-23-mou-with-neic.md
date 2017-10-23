@@ -11,4 +11,4 @@ e-Infrastructure services.
 The MoU will provide an opportunity for NeIC and ETAIS to actively work together on areas of interest
 that span national borders and regions.
 
-For more information please contact <a href="mailto:ivar.koppel">Ivar Koppel</a>.
+For more information please contact <a href="mailto:ivar.koppel@ut.ee">Ivar Koppel</a>.
