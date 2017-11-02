@@ -14,7 +14,6 @@ is as follows:
 
 ```type<generation>.label```
 
-Please note that mandatory disk is not defined -- instead we suggest to use volume-based VMs.
 
 List of supported flavors:
 
