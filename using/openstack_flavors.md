@@ -20,11 +20,13 @@ List of supported flavors:
 
 | Name     | vCPU   |    RAM (GB)       | Disk (GB)  |
 | -------- |:-----:| -----:| -----:|
-|	m1.xsmall| 1 |	1 |	0 |
-|	m1.small | 1 | 2 |	0 |
-|	c1.small | 2 |	2  |0 |
-|	m1.medium| 2 | 4  | 0 |
-|	c1.medium| 4 | 4  |	0 |
-|	m1.large | 4 | 8  |	0 |
-|	m1.xlarge| 8 | 16 | 0  |
-|	m1.xxlarge| 16 | 32 | 0 |
+|	m1.xsmall| 1 |	1 |	10 |
+|	m1.small | 1 | 2 |	20 |
+|	c1.small | 2 |	2  |20 |
+|	m1.medium| 2 | 4  | 20 |
+|	c1.medium| 4 | 4  |	20 |
+|	m1.large | 4 | 8  |	20 |
+|	c1.large | 8 | 8  |	20 |
+|	m1.xlarge| 8 | 16 | 20  |
+|	m1.xlarge| 16| 16 | 20  |
+|	m1.xxlarge| 16 | 32 | 20 |
