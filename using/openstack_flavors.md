@@ -20,7 +20,6 @@ List of supported flavors:
 
 | Name     | vCPU   |    RAM (GB)       | Disk (GB)  |
 | -------- |:-----:| -----:| -----:|
-|	m1.tiny	 | 1 |	0.5  | 0 |
 |	m1.xsmall| 1 |	1 |	0 |
 |	m1.small | 1 | 2 |	0 |
 |	c1.small | 2 |	2  |0 |
