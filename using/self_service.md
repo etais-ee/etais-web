@@ -300,3 +300,26 @@ For adding new Security Group please click on "Create" button.
 It is required to enter Security Group name and to add at least one rule. We recommend adding a description as well.
 
 ![Creating SecGroup - step 4](../images/project-vpc-secgroups-form.png)
+
+## Adding a batch queue allocation
+
+> *In order to be able to use batch queues in ETAIS you need to setup your FreeIPA profile. You can do it in [your profile](https://minu.etais.ee/#/profile/freeipa-account/).*
+
+Batch resource allocation in one of ETAIS HPC centers can be created by selecting "Batch processing" from Service Store
+or by going to "Resources: Batch processing" and clicking on "Create" button.
+
+![Configuring a new batch allocation](../images/project-batch-list.png)
+
+After selecting an HPC provider, you will be able to fill in the form setting the planned monthly limits
+for the batch resources. Accounting for resources is usage based, summary on the right will show the maximum
+cost of all limits are reached. Provision allocation by clicking on "Purchase" button.
+
+![Configuring a new batch allocation](../images/project-batch-add-form.png)
+
+Once allocation has been created, you can see its access information:
+
+1. Login information for SLURM head node. You will be able to use your FreeIPA account and any of the uploaded public SSH keys.
+2. Account ID that needs to be passed to *sbatch* command when scheduling a job.
+
+![Details of an allocation](../images/project-batch-details.png)
+
