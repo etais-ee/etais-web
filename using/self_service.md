@@ -322,4 +322,3 @@ Once allocation has been created, you can see its access information:
 2. Account ID that needs to be passed to *sbatch* command when scheduling a job.
 
 ![Details of an allocation](../images/project-batch-details.png)
-

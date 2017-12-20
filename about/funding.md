@@ -13,3 +13,4 @@ title: "About ETAIS"
 Building ETAIS infrastructure has been largely funded by European Regional Development Fund. 
 
 
+ERDF contribution is 2 077 230 EUR and self-financing by partners is 109 327.9 EUR.

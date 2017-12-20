@@ -21,5 +21,3 @@ The project consists of the following sub-projects:
 - Renewal of the authentication platform [TAAT (TAAT2)](http://taat.edu.ee/main/about/?lang=en "TAAT info")  
 - Increasing computing and data storing capability (additional hardware)  
 - Implementing information security system  [ISKE](https://www.ria.ee/en/iske-en.html "RIA ISKE page")  
-
-
