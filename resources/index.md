@@ -18,5 +18,4 @@ ETAIS resources are divided between four different organisations:
 - National Institute of Chemical Physics and Biophysics (KBFI)  
 - Information Technology Foundation for Education (HITSA, previously known as EENet)  
 
-Click the blue buttons above to learn more about the resources available at different institutions.
-
+Click the buttons above to learn more about the resources available at different institutions.

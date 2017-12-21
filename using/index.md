@@ -12,7 +12,7 @@ title: "Using ETAIS"
 
 **You are welcome to use ETAIS infrastructure**  
 
-Please click on blue buttons above to learn more about how to start using ETAIS services and what to bear in mind
+Please click on the buttons above to learn more about how to start using ETAIS services and what to bear in mind
 while being our guest.  
 
 Thank you!
