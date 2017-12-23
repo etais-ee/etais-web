@@ -27,5 +27,5 @@ List of supported flavors:
 |	m1.large | 4 | 8  |	20 |
 |	c1.large | 8 | 8  |	20 |
 |	m1.xlarge| 8 | 16 | 20  |
-|	m1.xlarge| 16| 16 | 20  |
+|	1.xlarge| 16| 16 | 20  |
 |	m1.xxlarge| 16 | 32 | 20 |
