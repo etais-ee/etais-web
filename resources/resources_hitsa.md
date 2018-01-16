@@ -12,7 +12,7 @@ title: "ETAIS resources"
 
 **Central services**  
 - Authentication system [TAAT](http://taat.edu.ee/main/about/?lang=en "TAAT English page")  
-- Monitoring system  
+- TaaT Monitoring system  
 
 **HITSA HPC cluster**
 - 10 nodes (2x Intel Xeon 4core/6core, 48 GB RAM, 10 krpm HDD)
