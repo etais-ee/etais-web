@@ -7,6 +7,7 @@ title: "About ETAIS"
 <a href="../funding/" class="btn-success"> Funding</a>
 <a href="../goals/" class="btn-info"> Goals</a>
 <a href="../partners/" class="btn-info"> Partners</a>
+<a href="/resources/" class="btn-info"> Resources</a>
 
 **Funding**
 

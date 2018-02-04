@@ -7,6 +7,7 @@ title: "About ETAIS"
 <a href="../funding/" class="btn-info"> Funding</a>
 <a href="../goals/" class="btn-success"> Goals</a>
 <a href="../partners/" class="btn-info"> Partners</a>
+<a href="/resources/" class="btn-info"> Resources</a>
 
 **Goals of ETAIS project**
 
