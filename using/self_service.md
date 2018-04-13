@@ -122,6 +122,16 @@ Access is done by clicking on user avatar and selecting one of the entries from 
 
 ![User profile link](../images/user-profile-link.png)
 
+
+## Adding a public SSH key to a profile
+1. Generate your SSH keypair (on Windows: using PuTTYgen, Linux: using OpenSSH)
+2. Click Details on the left side of the screen
+3. Select SSH keys
+4. Click Add SSH key
+5. Paste there contents of a public SSH key
+
+![Adding public SSH key](../images/adding-ssh-key.png)
+
 ### Organization and project workspace selector
 Navigation between different organization and project workspaces are done with the help of the workspace selector available in the header row.
 
@@ -322,3 +332,109 @@ Once allocation has been created, you can see its access information:
 2. Account ID that needs to be passed to *sbatch* command when scheduling a job.
 
 ![Details of an allocation](../images/project-batch-details.png)
+
+## Python management service
+
+### Prerequisites
+
+1. Your project in ETAIS has a Private Cloud. Please refer to [Adding a VPC](#adding-a-vpc)
+2. Your account has your SSH public key. Please refer to [Adding public SSH key](#adding-a-public-ssh-key-to-a-profile)
+3. A virtual machine is created and properly configured. For details please refer to [Adding a VM](#adding-a-vm)
+   1. Make sure image is either Debian 9 or Ubuntu 16.04
+   2. Select your previously uploaded SSH public key in the form
+   3. Ssh and Web security groups should be assigned 
+   4. "Auto-assign a floating IP" option in Networks combobox should be selected (or any existing IP address)
+4. Wait for the VM to start.
+
+>If you cannot connect to a newly created VM at once, wait for several minutes to make sure that OS has booted and SSH daemon has been started.
+
+VM configuration is depicted on the following screenshot:
+![Configuration for Python and JupyterHub management services](../images/vm-config-for-python-jupyter-management.png)
+
+Now, navigate to Resources -> Applications on the left. Then press Create application in the top right corner of the table and select Python management:
+
+![Available applications popup](../images/available-applications-list.png)
+
+Before saving the form, follow the instructions under “Virtual machine has cloud broker public key” checkbox:
+
+1. Find out External IP of your VM
+   ![VM External IP](../images/vm-external-ip.png)
+
+2. For Windows users: Connect with PuTTY (private key should correspond to the public key you uploaded to ETAIS!) to your VM
+   ![Connect via Putty](../images/connect-putty.png)
+
+3. Linux/MacOS: Use OpenSSH: ```ssh TARGET_USER@VM_EXTERNAL_IP```
+
+Once you are logged in (default system user depends on a distribution: either debian or ubuntu), copy cloud broker public key from the Python management form and paste it into /home/TARGET_SYSTEM_USER/.ssh/authorized_keys
+
+![Pasting ETAIS public key into authorized_keys on your VM](../images/python-management-authorized-keys.png)
+
+Now you can proceed with Python management form and afterwards cotinue with [JupyterHub management](#jupyterhub-management-service).
+
+### Details screen elements
+
+![Python management details screen elements](../images/python-management-details.png)
+
+> Virtual environments are managed using virtualenv and virtualenvwrapper utilities.
+
+Python management service is not notified when you install additional libraries manually.
+
+> If you install any libraries or create new virtual environments directly via SSH, click either Find missing libraries or Find installed virtual environments & libraries.
+
+1. Button to propagate changes to a virtual machine (install/delete libraries, create/delete virtual environments)
+2. Virtual environment name (a folder inside Virtual environments root directory)
+3. Download installed libraries list in a form of [requirements file format](https://pip.pypa.io/en/stable/user_guide/#requirements-files). Currently supports only exact versions of packages: pkg==1.1
+4. Upload requirements.txt for installation in a virtual environment. Again, only exact versions of packages. New libraries will appear in the form, save to apply the changes.
+5. If any libraries were installed manually using pip through SSH (or via Jupyter notebooks), you need to synchronize that virtual environment with ETAIS using this button (otherwise new libraries will not appear in a virtual environmnet)
+6. If any virtual environments were manually installed/removed in Virtual environments root directory, you need to synchronize the state with ETAIS with this button (otherwise new virtual environment will not appear).
+7. A brief guide which tells you how to manually install libraries via SSH.
+8. Each action performed by ETAIS on a VM is logged in Actions history tab.
+9. Expand virtual environment (shows list of libraries)
+
+## JupyterHub management service
+
+Before using JupyterHub, please setup [Python management service](#python-management-service) on a VM.
+
+Once provisioned, JupyterHub configuration file is located in ```/etc/jupyterhub/jupyterhub_config.py```. All changes manually applied to JupyterHub configuraiton files will not be reflected in JupyterHub details form. Moreover, each time you click "Apply configuration" button, the existing configuration file is completely replaced with the new one generated out of the currently saved state in ETAIS. However, the backup for old configuration file is created in the same folder.
+
+JupyterHub management service is not notified if you change, for example, admin rights through JupyterHub GUI - do it through self-service.
+
+### Details screen - manual JupyterHub user entry
+
+![JupyterHub management details Linux PAM authentication section](../images/jupyterhub-management-linux-pam.png)
+
+1. Virtual environments come from Python management service.
+2. It is possible to make these virtual environments accessible as Jupyter kernels. All JupyterHub users will have access to them. However, they will not be allowed to install or remove libraries through notebook or SSH in these kernels.
+3. There are 2 types of authentication methods available. In both cases JupyterHub users correspond to Linux system users.
+ * Linux PAM: you need to manually define JupyterHub users. Corresponding system users will be created once Apply configuration button is pressed.
+ * OAuth: see the next section. Corresponding system users will be created on first login.
+4. Apply configuration (currently active Jupyter users will experience short connection outage with JupyterHub).
+5. Passwords for already created users are not stored in ETAIS database. Password should be defined only for new users (form validation will guide you).
+
+### Details screen - OAuth2 authentication method
+
+![JupyterHub management details OAuth2 authentication section](../images/jupyterhub-management-oauth.png)
+
+1. Currently there are 2 supported OAuth providers: GitLab and Microsoft Azure.
+2. External link to a GitHub page where it is explained how to configure authentication for each OAuth provider.
+3. At least one admin should be specified. All special characters in usernames will be replaced with underscores _ once config is saved.
+4. By default, any OAuth user can login to JupyterHub. If you want to prevent that from happening, you can specify that only specified admins are eligible to log in.
+5. If you want to add additional users who are allowed to log in, specify them here.
+
+### How to restart JupyterHub via SSH
+
+If you need to manually restart JupyterHub SSH, execute the following commands. Normally, there is no need in doing that, since when JupyterHub details screen is saved, all changes will be applied and JupyterHub restarted).
+
+Stop JupyterHub process:
+
+```supervisorctl stop jupyterhub```
+
+Kill configurable-http-proxy process:
+
+```sudo pkill node```
+
+Start JupyterHub process:
+
+```supervisorctl start jupyterhub```
+
+
