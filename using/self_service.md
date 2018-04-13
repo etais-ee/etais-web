@@ -333,7 +333,7 @@ Once allocation has been created, you can see its access information:
 
 ![Details of an allocation](../images/project-batch-details.png)
 
-## Python management service
+## Python management
 
 ### Prerequisites
 
@@ -349,7 +349,7 @@ Once allocation has been created, you can see its access information:
 >If you cannot connect to a newly created VM at once, wait for several minutes to make sure that OS has booted and SSH daemon has been started.
 
 VM configuration is depicted on the following screenshot:
-![Configuration for Python and JupyterHub management services](../images/vm-config-for-python-jupyter-management.png)
+![Configuration for Python and JupyterHub managements](../images/vm-config-for-python-jupyter-management.png)
 
 Now, navigate to Resources -> Applications on the left. Then press "Create application" in the top right corner of the table and select "Python management":
 
@@ -369,7 +369,7 @@ Once you are logged in (default system user depends on a distribution: either `d
 
 ![Pasting ETAIS public key into authorized_keys on your VM](../images/python-management-authorized-keys.png)
 
-Now you can proceed with Python management form and afterwards continue with a [JupyterHub management](#jupyterhub-management-service).
+Now you can proceed with Python management form and afterwards continue with a [JupyterHub management](#jupyterhub-management).
 
 ### Details screen elements
 
@@ -377,7 +377,7 @@ Now you can proceed with Python management form and afterwards continue with a [
 
 > Virtual environments are managed using virtualenv and virtualenvwrapper utilities.
 
-Python management service is not notified when you install additional libraries manually. If you install any libraries or create new virtual environments directly via SSH, click either "Find missing libraries" or "Find installed virtual environments & libraries".
+Python management is not notified when you install additional libraries manually. If you install any libraries or create new virtual environments directly via SSH, click either "Find missing libraries" or "Find installed virtual environments & libraries".
 
 Following list describes each element of Python management details screen:
 
@@ -391,13 +391,13 @@ Following list describes each element of Python management details screen:
 8. Each action performed by ETAIS on a VM is logged in Actions history tab.
 9. Expand virtual environment (shows list of libraries)
 
-## JupyterHub management service
+## JupyterHub management
 
-Before using JupyterHub, please setup [Python management service](#python-management-service) on a VM.
+Before using JupyterHub, please setup [Python management](#python-management) on a VM.
 
-Once provisioned, JupyterHub configuration file is located in ```/etc/jupyterhub/jupyterhub_config.py```. All changes manually applied to JupyterHub configuration files will not be reflected in JupyterHub details form. Moreover, each time you click "Apply configuration" button, the existing configuration file is completely replaced with the new one generated out of the currently saved state in ETAIS. However, the backup for old configuration file is created in the same folder.
+Once provisioned, JupyterHub configuration file is located at `/etc/jupyterhub/jupyterhub_config.py`. All changes manually applied to JupyterHub configuration files will not be reflected in JupyterHub details form. Moreover, each time you click "Apply configuration" button, the existing configuration file is completely replaced with the new one generated out of the currently saved state in ETAIS. However, the backup for old configuration file is created in the same folder.
 
-JupyterHub management service is not notified if you change, for example, admin rights through JupyterHub GUI - do it through self-service.
+JupyterHub management is not notified if you change, for example, admin rights through JupyterHub own UI - you need to do it through ETAIS self-service.
 
 ### Details screen - manual JupyterHub user entry
 
@@ -405,7 +405,7 @@ JupyterHub management service is not notified if you change, for example, admin 
 
 Following list describes each element of JupyterHub management details screen:
 
-1. Virtual environments come from Python management service.
+1. Virtual environments come from Python management.
 2. It is possible to make these virtual environments accessible as Jupyter kernels. All JupyterHub users will have access to them. However, they will not be allowed to install or remove libraries through notebook or SSH in these kernels.
 3. There are 2 types of authentication methods available. In both cases JupyterHub users correspond to Linux system users.
  * Linux PAM: you need to manually define JupyterHub users. Corresponding system users will be created once "Apply configuration" button is pressed.
