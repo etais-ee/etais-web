@@ -365,7 +365,7 @@ Before saving the form, follow the instructions under “Virtual machine has clo
 
 3. Linux/MacOS: Use OpenSSH client: `ssh TARGET_USER@VM_EXTERNAL_IP`
 
-Once you are logged in (default system user depends on a distribution: either debian or ubuntu), copy the cloud broker public key from the Python management creation form (to show it, press "Show key" under "Virtual machine contains a public key of the cloud broker" checkbox) and paste it into `/home/TARGET_SYSTEM_USER/.ssh/authorized_keys`
+Once you are logged in (default system user depends on a distribution: either `debian` or `ubuntu`), copy the cloud broker public key from the Python management creation form (to show it, press "Show key" under "Virtual machine contains a public key of the cloud broker" checkbox) and paste it into `/home/TARGET_SYSTEM_USER/.ssh/authorized_keys`
 
 ![Pasting ETAIS public key into authorized_keys on your VM](../images/python-management-authorized-keys.png)
 
