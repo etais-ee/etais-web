@@ -122,6 +122,16 @@ Access is done by clicking on user avatar and selecting one of the entries from 
 
 ![User profile link](../images/user-profile-link.png)
 
+
+## Adding a public SSH key to a profile
+1. Generate your SSH keypair (on Windows: using PuTTYgen, Linux: using OpenSSH)
+2. Click Details on the left side of the screen
+3. Select SSH keys
+4. Click Add SSH key
+5. Paste there contents of a public SSH key
+
+![Adding public SSH key](../images/adding-ssh-key.png)
+
 ### Organization and project workspace selector
 Navigation between different organization and project workspaces are done with the help of the workspace selector available in the header row.
 
@@ -323,29 +333,20 @@ Once allocation has been created, you can see its access information:
 
 ![Details of an allocation](../images/project-batch-details.png)
 
-## Adding a public SSH key to a profile
-1. Generate your SSH keypair (on Windows: using PuTTYgen, Linux: using OpenSSH)
-2. Click Details on the left side of the screen
-3. Select SSH keys
-4. Click Add SSH key
-5. Paste there contents of a public SSH key
-
-![Adding public SSH key](../images/adding-ssh-key.png)
-
 ## Python management service
 
 ### Prerequisites
 
 1. Your project in ETAIS has a Private Cloud. Please refer to [Adding a VPC](#adding-a-vpc)
 2. Your account has your SSH public key. Please refer to [Adding public SSH key](#adding-a-public-ssh-key-to-a-profile)
-3. Virtual machine is create and properly configured. For details please refer to [Adding a VM](#adding-a-vm)
+3. A virtual machine is created and properly configured. For details please refer to [Adding a VM](#adding-a-vm)
    1. Make sure image is either Debian 9 or Ubuntu 16.04
    2. Select your previously uploaded SSH public key in the form
    3. Ssh and Web security groups should be assigned 
    4. "Auto-assign a floating IP" option in Networks combobox should be selected (or any existing IP address)
-4. Wait for VM to start.
+4. Wait for the VM to start.
 
->If VM status is active, it does not mean that a Linux distribution has been installed, you need to wait a few moments before you will be allowed to connect to a VM.
+>If you cannot connect to a newly created VM at once, wait for several minutes to make sure that OS has booted and SSH daemon has been started.
 
 VM configuration is depicted on the following screenshot:
 ![Configuration for Python and JupyterHub management services](../images/vm-config-for-python-jupyter-management.png)
@@ -359,12 +360,12 @@ Before saving the form, follow the instructions under “Virtual machine has clo
 1. Find out External IP of your VM
    ![VM External IP](../images/vm-external-ip.png)
 
-2. Connect with PuTTY (private key should correspond to the public key you uploaded to ETAIS!) to your VM
+2. For Windows users: Connect with PuTTY (private key should correspond to the public key you uploaded to ETAIS!) to your VM
    ![Connect via Putty](../images/connect-putty.png)
 
-3. Or use OpenSSH on Linux/MacOS: ssh TARGET_USER@VM_EXTERNAL_IP
+3. Linux/MacOS: Use OpenSSH: ```ssh TARGET_USER@VM_EXTERNAL_IP```
 
-Once you are logged in (default system user depends on a distribution: either debian or ubuntu), copy cloud broker public key from the Python management form and paste it into /home/YOUR_TARGET_SYSTEM_USER/.ssh/authorized_keys
+Once you are logged in (default system user depends on a distribution: either debian or ubuntu), copy cloud broker public key from the Python management form and paste it into /home/TARGET_SYSTEM_USER/.ssh/authorized_keys
 
 ![Pasting ETAIS public key into authorized_keys on your VM](../images/python-management-authorized-keys.png)
 
@@ -376,9 +377,9 @@ Now you can proceed with Python management form and afterwards cotinue with [Jup
 
 > Virtual environments are managed using virtualenv and virtualenvwrapper utilities.
 
-Python Management service is not notified when you install additional libraries manually.
+Python management service is not notified when you install additional libraries manually.
 
-> If you install any libraries directly or create new virtual environments via SSH, click either Find missing libraries or Find installed virtual environments & libraries.
+> If you install any libraries or create new virtual environments directly via SSH, click either Find missing libraries or Find installed virtual environments & libraries.
 
 1. Button to propagate changes to a virtual machine (install/delete libraries, create/delete virtual environments)
 2. Virtual environment name (a folder inside Virtual environments root directory)
@@ -386,8 +387,8 @@ Python Management service is not notified when you install additional libraries 
 4. Upload requirements.txt for installation in a virtual environment. Again, only exact versions of packages. New libraries will appear in the form, save to apply the changes.
 5. If any libraries were installed manually using pip through SSH (or via Jupyter notebooks), you need to synchronize that virtual environment with ETAIS using this button (otherwise new libraries will not appear in a virtual environmnet)
 6. If any virtual environments were manually installed/removed in Virtual environments root directory, you need to synchronize the state with ETAIS with this button (otherwise new virtual environment will not appear).
-7. A brief guide which tells you how to activate virtual environment in terminal, install libraries and that you should click “Find missing installed libraries” button if new libraries were installed manually.
-8. Each action performed by ETAIS on a VM is logged here.
+7. A brief guide which tells you how to manually install libraries via SSH.
+8. Each action performed by ETAIS on a VM is logged in Actions history tab.
 9. Expand virtual environment (shows list of libraries)
 
 ## JupyterHub management service
