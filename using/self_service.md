@@ -403,6 +403,8 @@ JupyterHub management service is not notified if you change, for example, admin 
 
 ![JupyterHub management details Linux PAM authentication section](../images/jupyterhub-management-linux-pam.png)
 
+Following list describes each element of JupyterHub management details screen:
+
 1. Virtual environments come from Python management service.
 2. It is possible to make these virtual environments accessible as Jupyter kernels. All JupyterHub users will have access to them. However, they will not be allowed to install or remove libraries through notebook or SSH in these kernels.
 3. There are 2 types of authentication methods available. In both cases JupyterHub users correspond to Linux system users.
@@ -414,6 +416,8 @@ JupyterHub management service is not notified if you change, for example, admin 
 ### Details screen - OAuth2 authentication method
 
 ![JupyterHub management details OAuth2 authentication section](../images/jupyterhub-management-oauth.png)
+
+Following list describes elements of OAuth2 section:
 
 1. Currently there are 2 supported OAuth providers: GitLab and Microsoft Azure.
 2. External link to a GitHub page where it is explained how to configure authentication for each OAuth provider.
