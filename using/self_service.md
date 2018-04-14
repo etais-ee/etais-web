@@ -427,7 +427,7 @@ Following list describes elements of OAuth2 section:
 
 ### How to restart JupyterHub via SSH
 
-Normally, there is no need in restarting JupyterHub manually, since when JupyterHub details screen is saved, all changes will be applied and JupyterHub will get restarted). But if you install additional extensions to JupyterHub, you may need to manually restart it via SSH. The following commands will not kill running Jupyter instances of users. Please execute the following commands. Please note that `supervisorctl restart jupyterhub` does not restart JupyterHub properly.
+Normally, there is no need in restarting JupyterHub manually, since when JupyterHub details screen is saved, all changes will be applied and JupyterHub will get restarted). But if you install additional extensions to JupyterHub, you may need to manually restart it via SSH. The following commands will not kill running Jupyter instances of users. Please note that `supervisorctl restart jupyterhub` does not restart JupyterHub properly.
 
 Stop JupyterHub process:
 
