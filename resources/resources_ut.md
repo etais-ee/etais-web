@@ -17,13 +17,13 @@ title: "ETAIS resources"
 - 2 special purpose nodes for VMs etc (2 x Intel Xeon E5-2660v2, 128 GB RAM, 2 TB local storage)   
 - InfiniBand datastorage ca 1.2 PB  
 
-[Read more about Rocket](http://portal.hpc.ut.ee/web/guest/rocket-cluster "UT HPC Rocket info")
+[Read more about Rocket](https://hpc.ut.ee/en/rocket-cluster/ "UT HPC Rocket info")
 
 **HPC cluster Vedur**  
 - 80 nodes (2 x AMD Opteron 6276, 48 GB RAM, 512 GB HDD)   
 - InfiniBand datastorage ca 130 TB  
 
-[Read more about Vedur](http://portal.hpc.ut.ee/web/guest/vedur-cluster "UT HPC Vedur info")
+[Read more about Vedur](https://hpc.ut.ee/en/vedur-cluster/ "UT HPC Vedur info")
 
 ** Guides **
--- [All user guides](http://portal.hpc.ut.ee/web/guest/guides "UT HPC guides")  
+-- [All user guides](https://hpc.ut.ee/en/guides/ "UT HPC guides")  
