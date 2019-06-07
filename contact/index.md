@@ -28,5 +28,5 @@ E-mail: mario.kadastik@cern.ch
 
 **Information Technology Foundation for Education (HITSA)**
 
-Sven Hüsson   
-E-mail: sven.hysson@eenet.ee
+Valmar Kuristik   
+E-mail: valmar.kuristik@eenet.ee
