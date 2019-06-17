@@ -13,4 +13,6 @@ The applications will be reviewed by the Dellingr project and the resources assi
 
 The NeIC is an organisation that facilitates the development and operation of high-quality e-Infrastructure solutions in areas of joint Nordic interest. The NeIC is administered by NordForsk and funded by national research funding agencies.
 
+<a href="https://dellingr.neic.no/guide/">User guide for accessing the resources</a>.
+
 For more information please contact <a href="mailto:ilja.livenson@ut.ee">Ilja Livenson</a>.
