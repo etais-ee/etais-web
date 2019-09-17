@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 permalink: /jobs/
 title: "Jobs"
 ---
