@@ -25,34 +25,35 @@ The main concepts are as follows:
 
 ![Overview](../images/etais-structure.png)
 
-* **Organization** is a standalone entity that represents a research group or a company. Organization is responsible for the 
-actions of users connected to it in different [roles](#roles).
+* **Organization** is representing a customer of ETAIS. Organization is responsible for the 
+actions of users connected to it in different [roles](#roles). Organizations that provide Offerings are called
+Service Providers
 * **Project** is an entity within an organization that aggregates and isolates teams and resources.
-* **Provider** is an entity that represents account in an external service provider.
-  * **Private providers** - providers that are available and manageable within a specific organization.
-  * **Shared providers** - global providers that are available for all organizations. This includes HPC, cloud and storage infrastructure from ETAIS consortium.
-* **Resource** - an entity within a project and a provider. Represents cloud resource. Examples: virtual machine or volume in OpenStack, quota in batch processing queue.
+* **Offering** is a concrete service provided in Marketplace that can be ordered.
+* **Resource** - Represents an instance of an Offerings. For example, it can be a Virtual Private Cloud or quota in a batch processing queue.
+* **User** - Represents end-users of the system (humans or robots).
 
 ETAIS self-service portal is based on [Waldur](https://waldur.com) cloud brokerage platform. The latest documentation is available from
 [docs.waldur.com](http://docs.waldur.com). Below are key aspects adapted for ETAIS deployment.
 
-## Service store
+## Marketplace
 
-Service Store provides a common way to provision resources from both shared and private service providers.
+Marketplace provides a common way to provision resources.
 
-The following resource types are offered at the moment:
+The following resource categories are offered at the moment:
 
-* Virtual Private Cloud (VPC) - a pool of resources dedicated to a particular organization.
-* Virtual Machines (requires pre-provisioned VPC) - a server with network connectivity for running customer payloads.
+* Private clouds - a pool of resources dedicated to a particular organization.
+* Virtual Machines aka VMs (requires pre-provisioned VPC) - a server with network connectivity for running customer payloads.
 * Block Devices (requires pre-provisioned VPC) - persistent volumes for storage of the data.
-* Batch (TBD) - access to Slurm-based processing farms.
+* HPC - access to SLURM-based processing farms.
+* Platform - access to Slurm-based processing farms.
 
-### VPC Details
-* Virtual Private Cloud (VPC) is a compute service that allows procuring and managing a pool of virtualized infrastructure
+### Private clouds in more details
+* Private Cloud (aka Virtual Private Cloud / VPC) is a compute service that allows procuring and managing a pool of virtualized infrastructure
 resources - like RAM, CPU, storage volumes and network resources - required to run virtual machines.
-* VPC package does not limit VM count - it depends on VM flavors used and total resources available in a chosen package.
-* VPC packages can be upgraded and downgraded at any moment.
-* VPC packages are accounted daily based on the price of the largest resource package that was selected during the day.
+* VPC limits define total resources available in a cloud for creating virtual machine and volumes.
+* VPC limits can be changed at any moment.
+* Private clouds are accounted on a daily basis with the price of the most expensive set of limits during that day.
 
 ## User accounts
 ETAIS self-service portal supports user accounts coming from [TaaT](http://taat.edu.ee) federated identity system,
@@ -90,7 +91,6 @@ User roles are hierarchical in a way that organization owners can do everything 
 * Can access organization workspace.
 * Can invite other users to participate in the organization.
 * Can create and manage projects, including policies and cost limitations.
-* Can manage resource providers and set their availability within projects.
 * Can do everything that project managers and system administrators can do.
 
 ### Project Managers
@@ -155,12 +155,11 @@ Organization workspace allows to manage projects, subscriptions to resource prov
 Menu entries available within organization workspace:
 
 * **Dashboard**: overview of managed resources and projects
-* **Providers**: resource providers management (system and provisioned providers)
 * **Projects**: projects management
-* **Service store**: catalog of resources and providers, available for provisioning 
+* **Marketplace**: catalog of Offerings available for provisioning 
 * **Analytics**: resource usage reports
 * **Audit logs**: event logs related to organization, its projects and resources
-* **Team**: management of organization members and their project/role accreditations
+* **Team**: management of organization members and their project/role affiliations
 * **Accounting**: resource usage accounting information
 * **Manage**: management of organization details
 
@@ -202,7 +201,7 @@ Project workspace provides tools and information required for day-to-day work an
 Menu entries available within project dashboard:
 
 * **Dashboard**: overview of project resources and latest events
-* **Service store**: catalog of resources and providers, available for provisioning
+* **Marketplace**: catalog of Offerings available for provisioning
 * **Resources**: provisioned resource listings and management views by resource category (VMs, Private Clouds, Storage, etc.)
 * **Audit logs**: event logs related to project and its resources
 * **Team**: project team management
@@ -212,7 +211,7 @@ Virtual Private Cloud resource package can be added by selecting "Resources" and
 
 ![Add VPC](../images/project-vpc-add.png)
 
-> *NB! There are several Virtual Private Cloud providers available from the Service Store. You need to provision at least one VPC package
+> *NB! There are several Virtual Private Cloud providers available from the Marketplace. You need to provision at least one VPC package
 from suitable provider in order to be able to create virtual machines.*
 
 ![Selecting VPC provider](../images/project-vpc-add-provider-select.png)
@@ -315,7 +314,7 @@ It is required to enter Security Group name and to add at least one rule. We rec
 
 > *In order to be able to use batch queues in ETAIS you need to setup your FreeIPA profile. You can do it in [your profile](https://minu.etais.ee/#/profile/freeipa-account/).*
 
-Batch resource allocation in one of ETAIS HPC centers can be created by selecting "Batch processing" from Service Store
+Batch resource allocation in one of ETAIS HPC centers can be created by selecting "Batch processing" from Marketplace
 or by going to "Resources: Batch processing" and clicking on "Create" button.
 
 ![Configuring a new batch allocation](../images/project-batch-list.png)
