@@ -334,7 +334,7 @@ Once allocation has been created, you can see its access information:
 
 ## Adding a Kubernetes cluster
 
-Kubernetes (K8s) clusters are created and managed using (Rancher)[https://rancher.com/docs/rancher/v2.x/en/] 
+Kubernetes (K8s) clusters are created and managed using [Rancher](https://rancher.com/docs/rancher/v2.x/en/) 
 management server. K8s clusters are deployed into a selected OpenStack Project (aka VPC), so it must exist before
 cluster can be created.
 
