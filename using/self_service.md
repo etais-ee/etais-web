@@ -331,3 +331,49 @@ Once allocation has been created, you can see its access information:
 2. Account ID that needs to be passed to *sbatch* command when scheduling a job.
 
 ![Details of an allocation](../images/project-batch-details.png)
+
+## Adding a Kubernetes cluster
+
+Kubernetes (K8s) clusters are created and managed using (Rancher)[https://rancher.com/docs/rancher/v2.x/en/] 
+management server. K8s clusters are deployed into a selected OpenStack Project (aka VPC), so it must exist before
+cluster can be created.
+
+To create a K8S cluster select "Platform" category in the Marketplace.
+
+![Create form](../images/k8s/k8s-create-1.png)
+
+Fill in the form for cluster creation. The following settings need to be defined:
+- SSH public key to inject as authorized key into K8S nodes;
+- Define private cloud where to deploy K8s as well as subnet where the nodes should be connected to.
+- Define a K8s node plan, specifying roles, flavors and sizes.
+
+Once the form is filled and validated, click on Purchase to proceed to provisioning. 
+
+![Create form #2](../images/k8s/k8s-create-2.png)
+
+Please note that creating a cluster takes on average 10 minutes per node.
+
+Once the provisioning has started, you can see the details in the K8s detail view. During the
+initial creation, nodes are created one-by-one and added to the cluster. Note the linked OpenStack
+VMs - by default nodes are provisioned with internal IPs only. If you want to add Load Balancer or
+connect K8s directly to external network, please use the corresponding VM management.
+
+![rancher-detail](../images/k8s/k8s-detail-1.png)
+
+Note that if an OpenStack Instance is part of a K8S cluster, it will include a short-cut link in
+its detail view.
+
+![openstack-instance](../images/k8s/k8s-detail-2.png)
+
+Once created, it is possible to access K8s cluster also via Rancher management. Link is available
+from the cluster detail view. Rancher provides a rich set of options for management of K8s clusters.
+Initial access credentials are generated and e-mailed to users with access to cluster (project and organization roles)
+after the cluster is created. Note that if you already have access credentials, they won't be created
+each time, instead permissions for your account would be added.   
+
+![rancher-view](../images/k8s/k8s-detail-3.png)
+
+Once the cluster is active, you can also download kubeconfig file to access and manage K8s cluster.
+Please use Actions -> Generate Kubeconfig file for that.
+
+![Kubeconfig](../images/k8s/k8s-detail-6.png)
