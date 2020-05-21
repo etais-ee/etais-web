@@ -18,8 +18,8 @@ GSM: (+372) 566 29 282
 
 **Tallinn University of Technology**
 
-Toomas Kaevand   
-E-mail: toomas.kaevand@ttu.ee
+Lauri Anton   
+E-mail: lauri.anton@taltech.ee
 
 **National Institute of Chemical Physics and Biophysics (KBFI)**
 
