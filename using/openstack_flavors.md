@@ -17,37 +17,37 @@ is as follows:
 
 List of supported flavors:
 
-| Name                |    RAM | Disk | VCPUs |
+| Name                |    VCPUs | RAM | Disk |
 | -------- |:-----:| -----:| -----:|
-| m1.xsmall           |   1024 |   10 |     1 |
-| m3.nano             |   1024 |   10 |     1 |
-| m1.small            |   2048 |   20 |     1 |
-| c3.nano             |   1024 |   10 |     2 |
-| m3.tiny             |   2048 |   10 |     2 |
-| c1.small            |   2048 |   20 |     2 |
-| m1.medium           |   4096 |   20 |     2 |
-| m2.tiny             |   4096 |   20 |     2 |
-| c3.tiny             |   2048 |   10 |     4 |
-| c1.medium           |   4096 |   20 |     4 |
-| m3.xsmall           |   8192 |   10 |     4 |
-| m2.xsmall           |  16384 |   20 |     4 |
-| c3.xsmall           |   8192 |   10 |     8 |
-| c2.xsmall           |  16384 |   20 |     8 |
-| m3.small            |  16384 |   10 |     8 |
-| m2.small            |  32768 |   20 |     8 |
-| c3.small            |  16384 |   10 |    16 |
-| m3.medium           |  32768 |   10 |    16 |
-| c2.small            |  32768 |   20 |    16 |
-| m2.medium           |  65536 |   20 |    16 |
-| GPU.P100.m3.medium  |  32768 |   40 |    16 |
-| c3.medium           |  32768 |   10 |    32 |
-| m3.large            |  65536 |   10 |    32 |
-| c2.large            |  65536 |   20 |    32 |
-| GPU.2xP100.m3.large |  65536 |   40 |    32 |
-| m2.large            | 131072 |   20 |    32 |
-| r1.32xlarge         | 262144 |   20 |    32 |
-| c3.large            |  65536 |   10 |    64 |
-| m3.xlarge           | 131072 |   10 |    64 |
-| c2.xlarge           | 131072 |   20 |    64 |
-| m2.xlarge           | 262144 |   20 |    64 |
-| c3.xlarge           | 131072 |   10 |   128 |
+| m1.xsmall           |	  1|   1024 |   10 |
+| m3.nano             |	  1|   1024 |   10 |
+| m1.small            |	  1|   2048 |   20 |
+| c3.nano             |	  2|   1024 |   10 |
+| m3.tiny             |	  2|   2048 |   10 |
+| c1.small            |	  2|   2048 |   20 |
+| m1.medium           |	  2|   4096 |   20 |
+| m2.tiny             |	  2|   4096 |   20 |
+| c3.tiny             |	  4|   2048 |   10 |
+| c1.medium           |	  4|   4096 |   20 |
+| m3.xsmall           |	  4|   8192 |   10 |
+| m2.xsmall           |	  4|  16384 |   20 |
+| c3.xsmall           |	  8|   8192 |   10 |
+| c2.xsmall           |	  8|  16384 |   20 |
+| m3.small            |	  8|  16384 |   10 |
+| m2.small            |	  8|  32768 |   20 |
+| c3.small            |	 16|  16384 |   10 |
+| m3.medium           |	 16|  32768 |   10 |
+| c2.small            |	 16|  32768 |   20 |
+| m2.medium           |	 16|  65536 |   20 |
+| GPU.P100.m3.medium  |	 16|  32768 |   40 |
+| c3.medium           |	 32|  32768 |   10 |
+| m3.large            |	 32|  65536 |   10 |
+| c2.large            |	 32|  65536 |   20 |
+| GPU.2xP100.m3.large |	 32|  65536 |   40 |
+| m2.large            |	 32| 131072 |   20 |
+| r1.32xlarge         |	 32| 262144 |   20 |
+| c3.large            |	 64|  65536 |   10 |
+| m3.xlarge           |	 64| 131072 |   10 |
+| c2.xlarge           |	 64| 131072 |   20 |
+| m2.xlarge           |	 64| 262144 |   20 |
+| c3.xlarge           |	128| 131072 |   10 |
