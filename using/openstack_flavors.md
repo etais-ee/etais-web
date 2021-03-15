@@ -14,8 +14,7 @@ is as follows:
 
 ```type<generation>.label```
 
-
-List of supported flavors:
+###### List of supported flavors at UT HPC:
 
 | Name                |    VCPUs | RAM | Disk |
 | -------- |:-----:| -----:| -----:|
@@ -51,3 +50,33 @@ List of supported flavors:
 | c2.xlarge           |	 64| 131072 |   20 |
 | m2.xlarge           |	 64| 262144 |   20 |
 | c3.xlarge           |	128| 131072 |   10 |
+
+###### List of supported flavors at KBFI:
+
+| Name                |    VCPUs | RAM | Disk |
+| -------- |:-----:| -----:| -----:|
+| m1.xsmall           |	  1|   1024 |   10 |
+| m1.small            |	  1|   2048 |   20 |
+| c1.small            |	  2|   2048 |   20 |
+| m1.medium           |	  2|   4096 |   20 |
+| c1.medium           |	  4|   4096 |   20 |
+| m1.large            |	  4|   8192 |   20 |
+| c1.large            |	  8|  8192  |   20 |
+| m1.xlarge1          |	  8|  16384 |   20 |
+| c1.xlarge           |	 16|  16384 |   20 |
+| m1.xxlarge          |	 16|  32768 |   20 |
+
+###### List of supported flavors at TalTech:
+
+| Name                |    VCPUs | RAM | Disk |
+| -------- |:-----:| -----:| -----:|
+| g1.small1           |	  1|    512 |   10 |
+| g1.small2           |	  1|   1024 |   10 |
+| g1.medium1          |	  1|   2048 |   10 |
+| g1.medium2          |	  2|   4096 |   10 |
+| g1.medium3          |	  2|   4096 |   64 |
+| g1.large1           |	  4|   8192 |   20 |
+| g1.large2           |	  4|   8192 |   64 |
+| g1.large3           |	  4|  16384 |   64 |
+| g1.large4           |	  8|  16384 |   64 |
+| g1.xlarge1          |	  8|  24576 |   10 |
