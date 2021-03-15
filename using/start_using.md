@@ -7,7 +7,7 @@ title: "Start using"
 <a href="../terms_of_use/" class="btn-info"> Terms of use</a>
 <a href="../start_using/" class="btn-success"> Start using</a>
 <a href="../self_service/" class="btn-info"> Self-service guide</a>
-<a href="../openstack_flavors/" class="btn-info"> OpenStack flavors</a>
+<a href="../openstack_flavors/" class="btn-info"> ETAIS flavors</a>
 
 ETAIS is intended for research communities in Estonia as well as R&D companies. To get access to the resources,
 an usage agreement must be made signed ETAIS and an organization requesting to join.
