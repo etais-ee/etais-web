@@ -7,7 +7,7 @@ title: "Using ETAIS"
 <a href="../terms_of_use/" class="btn-success"> Terms of use</a>
 <a href="../start_using/" class="btn-info"> Start using</a>
 <a href="../self_service/" class="btn-info"> Self-service portal</a>
-<a href="../openstack_flavors/" class="btn-info"> OpenStack flavors</a>
+<a href="../openstack_flavors/" class="btn-info"> ETAIS flavors</a>
 
 ## Terms of use
 

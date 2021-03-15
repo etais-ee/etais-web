@@ -7,7 +7,7 @@ title: "ETAIS Self-Service Guide"
 <a href="../terms_of_use/" class="btn-info"> Terms of use</a>
 <a href="../start_using/" class="btn-info"> Start using</a>
 <a href="../self_service/" class="btn-success"> Self-service guide</a>
-<a href="../openstack_flavors/" class="btn-info"> OpenStack flavors</a>
+<a href="../openstack_flavors/" class="btn-info"> ETAIS flavors</a>
 
 {% include toc.html %}
 
