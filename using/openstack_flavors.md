@@ -14,6 +14,8 @@ is as follows:
 
 ```type<generation>.label```
 
+{% include toc.html %}
+
 ## List of supported flavors at UT HPC:
 
 | Name                |    VCPUs | RAM | Disk |
