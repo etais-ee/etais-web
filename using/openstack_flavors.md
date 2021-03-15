@@ -16,7 +16,7 @@ is as follows:
 
 {% include toc.html %}
 
-## List of supported flavors at UT HPC:
+## List of supported flavors at UT HPC
 
 | Name                |    VCPUs | RAM | Disk |
 | -------- |:-----:| -----:| -----:|
@@ -53,7 +53,7 @@ is as follows:
 | m2.xlarge           |	 64| 262144 |   20 |
 | c3.xlarge           |	128| 131072 |   10 |
 
-## List of supported flavors at KBFI:
+## List of supported flavors at KBFI
 
 | Name                |    VCPUs | RAM | Disk |
 | -------- |:-----:| -----:| -----:|
@@ -68,7 +68,7 @@ is as follows:
 | c1.xlarge           |	 16|  16384 |   20 |
 | m1.xxlarge          |	 16|  32768 |   20 |
 
-## List of supported flavors at TalTech:
+## List of supported flavors at TalTech
 
 | Name                |    VCPUs | RAM | Disk |
 | -------- |:-----:| -----:| -----:|
