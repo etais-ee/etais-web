@@ -7,7 +7,7 @@ title: "OpenStack flavors"
 <a href="../terms_of_use/" class="btn-info"> Terms of use</a>
 <a href="../start_using/" class="btn-info"> Start using</a>
 <a href="../self_service/" class="btn-info"> Self-service guide</a>
-<a href="../openstack_flavors/" class="btn-success"> OpenStack flavors</a>
+<a href="../openstack_flavors/" class="btn-success"> ETAIS flavors</a>
 
 ETAIS OpenStack resources are providing a set of standard OpenStack flavors. Configuration namespace
 is as follows:
