@@ -32,4 +32,3 @@ title: "About ETAIS"
 **Information Technology Foundation for Education (HITSA/EENet)**
 
 - providing TAAT authorisation service  
-- providing cluster computing resources  
