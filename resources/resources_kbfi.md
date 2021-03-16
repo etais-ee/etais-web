@@ -9,11 +9,12 @@ title: "ETAIS resources"
 
 **National Institute of Chemical Physics and Biophysics (KBFI) cluster**  
 
-- 50 nodes (2x Intel Xeon E5-2630v3, 96 GB RAM, 18 TB HDD)  
-- 128 nodes (2x Intel Xeon E5-2660, 64 GB RAM, 9-18 TB HDD)  
-- 30 nodes (2x AMD Opteron 6172, 48 GB RAM, 2 TB HDD)  
-- 10 Gbit connections between servers  
-- 2,65 PB data storage  
+- 26 nodes (2x Intel Xeon E5-2630v3, 196 GB RAM, 9-30 TB HDD)
+- 44 nodes (2x Intel Xeon E5-2630v3, 92 GB RAM, 18 TB HDD)
+- 124 nodes (2x Intel Xeon E5-2660, 64 GB RAM, 9-30 TB HDD)
+- 11 nodes (2x AMD Opteron 6172, 48 GB RAM, 9 TB HDD)
+- 10 Gbit connections between servers
+- 4,5 PB Datastore
 
 [Read more about KBFI cluster](https://hep.kbfi.ee/index.php/IT/Cluster "KBFI cluster info")
 
