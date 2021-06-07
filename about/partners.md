@@ -29,7 +29,7 @@ title: "About ETAIS"
 - OpenStack-based cloud service
 - ETAIS self-service portal
 
-**Information Technology Foundation for Education (HITSA/EENet)**
+**The Education and Youth Board (Harno)**
 
 - providing TAAT authorisation service  
 - providing cluster computing resources  

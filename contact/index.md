@@ -26,7 +26,7 @@ E-mail: lauri.anton@taltech.ee
 Mario Kadastik   
 E-mail: mario.kadastik@cern.ch
 
-**Information Technology Foundation for Education (HITSA)**
+**The Education and Youth Board (Harno)**
 
 Valmar Kuristik   
 E-mail: valmar.kuristik@eenet.ee
