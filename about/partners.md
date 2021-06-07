@@ -32,4 +32,3 @@ title: "About ETAIS"
 **The Education and Youth Board (Harno)**
 
 - providing TAAT authorisation service  
-- providing cluster computing resources  

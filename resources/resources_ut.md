@@ -7,7 +7,6 @@ title: "ETAIS resources"
 <a href="../resources_ut/" class="btn-success"> University of Tartu</a>
 <a href="../resources_ttu/" class="btn-info"> Tallinn University of Technology</a>
 <a href="../resources_kbfi/" class="btn-info"> KBFI</a>
-<a href="../resources_hitsa/" class="btn-info"> HITSA/EENet</a>
 
 **University of Tartu**
 

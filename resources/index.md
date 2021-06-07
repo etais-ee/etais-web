@@ -11,7 +11,7 @@ title: "ETAIS resources"
 
 **ETAIS is a consortium of four partners**
 
-ETAIS resources are divided between four different organisations:  
+ETAIS resources are divided between three different organisations:  
 - University of Tartu  
 - Tallinn University of Technology  
 - National Institute of Chemical Physics and Biophysics (KBFI)  
