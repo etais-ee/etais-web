@@ -2,7 +2,7 @@
 	<nav role="navigation" class="menu bottom-menu">
 		<ul class="menu-item">
 		{% for link in site.data.footer %}
-      {% if link.url contains 'http' %}
+      {% if link.url contains 'http' or link.url contains 'mailto' %}
         {% assign domain = '' %}
         {% else %}
         {% assign domain = site.url %}
