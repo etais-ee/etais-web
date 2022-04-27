@@ -302,8 +302,7 @@ VM should reach into "Active" status when successfully provisioned. "Access" fie
  - It enables you to create a separate working environment for a specific use, such as keeping your personal and work separated in different computing environments.
  - Easy access to your virtual machine that is entirely in your control.
 
-!!!!!! important
-Please note! Only the person who made the VD order, can log into the VD. The service is not accessible for any other team members.
+> *Please note! Only the person who made the VD order, can log into the VD. The service is not accessible for any other team members.
 
  - Run the software in a remote and powerful machine.
  - Teach students Linux internals.
