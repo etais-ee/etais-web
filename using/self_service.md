@@ -293,6 +293,107 @@ VM should reach into "Active" status when successfully provisioned. "Access" fie
 
 ![VM details](../images/project-vm-details.png)
 
+## Adding a Virtual Desktop
+### 1. Virtual Desktop Overview
+> *Virtual Desktop service is a cloud-hosted Linux desktop machine. The service is free of charge in Beta version. Virtual Desktop (VD)  is available in any web browser, and no client installation is required.*
+
+**What Does it Do**
+
+ - It enables you to create a separate working environment for a specific use, such as keeping your personal and work separated in different computing environments.
+ - Easy access to your virtual machine that is entirely in your control.
+
+> *Please note! Only the person who made the VD order, can log into the VD. The service is not accessible for any other team members.*
+ - Run the software in a remote and powerful machine.
+ - Teach students Linux internals.
+
+**Features**
+ - 4 CPU cores, 8GB of RAM, and 10GB SSD storage running on powerful AMD EPYC servers.
+ - Low latency with HD video and sound support.
+ - Pre-installed web browsers, office, and scientific software.
+
+### 2. Ordering The Virtual Desktop Service 
+- **Step 1:** Login to [https://minu.etais.ee](https://minu.etais.ee)
+
+
+
+![Picture](../images/vd-login-minuetais.png)
+
+
+- **Step 2:** Go to Marketplace 
+
+
+
+
+![Picture](../images/vd-marketplace.jpg)
+
+
+- **Step 3:** After finding a service Virtual Desktop (Beta), fill the field “Name” and add the selection to cart.  
+
+
+
+
+![Picture](../images/vd-beta.jpg)
+
+
+- **Step 4:** To finish the order, please, click “Purchase”.  
+
+
+
+
+![Picture](../images/vd-beta-purchase.jpg)
+
+
+- **Step 5:**
+
+**a)** If your role in the Project is Project Manager or System Administrator, please ask your ETAIS Organization Owner to approve the order. 
+
+**b)** If your role is Organization Owner you are able to complete the purchase to final approval. Hereafter the system will need a couple of minutes to execute the order (see the order status on print screen below). Once the system changes the state to “Done”, your VD is ready to use.
+
+ 
+![Picture](../images/vd-beta-executing.jpg)
+
+
+**c)** When the purchase is made by the Project Manager or System Administrator, minu.etais.ee sends a notification to the Owner to review the request. While waiting for the Owner’s approval, the order state remains “Pending”.
+
+
+
+
+![Picture](../images/vd-beta-pending.jpg)
+
+
+### 2.1. Organization Owner Approving a Service Order 
+
+- **Step 1:** Make sure your are in Organization space (not in Project space).
+
+- **Step 2:** Choose from left menu “My Services/My Orders”. The system will display a list of orders with their State.
+
+- **Step 3:** Click on order with the status “Pending”. 
+
+
+
+![Picture](../images/vd-organization-workspace.jpg)
+
+
+- **Step 4:** Choose the buttons “Approve” or “Reject”. 
+
+
+
+![Picture](../images/vd-request-approve.jpg)
+
+
+- **Step 5:** Hereafter the system will need a couple of minutes to execute the order. Once the system changes the state to “Done”, your VD is ready to use.
+
+> *Please note! Only the person who ordered the VD, can access the service. If the Owner did not order but just approved it, the is not accessible by the Owner.*
+
+
+
+### 2.2 Accessing the Virtual Desktop
+
+- **Step 1:** Access URL [https://desktop.hpc.ut.ee/](https://desktop.hpc.ut.ee/) with your UT credentials.
+
+Virtual Desktop demo can be reviewed [here](https://youtu.be/DCq_wRsP43Y).
+
+
 ## VPC Security Groups management
 Security Groups are scoped and managed under VPC package. For managing Security Groups and their rules please go into VPC detailview by clicking on provisioned VPC package name.
 
