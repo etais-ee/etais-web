@@ -384,7 +384,7 @@ VM should reach into "Active" status when successfully provisioned. "Access" fie
 
 - **Step 5:** Hereafter the system will need a couple of minutes to execute the order. Once the system changes the state to “Done”, your VD is ready to use.
 
-> *Please note! Only the person who ordered the VD, can access the service. If the Owner did not order but just approved it, the is not accessible by the Owner.*
+> *Please note! Only the person who ordered the VD, can access the service. If the Owner did not order but just approved it, it is not accessible by the Owner.*
 
 
 
