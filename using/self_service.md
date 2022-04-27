@@ -303,6 +303,7 @@ VM should reach into "Active" status when successfully provisioned. "Access" fie
  - Easy access to your virtual machine that is entirely in your control.
 
 > *Please note! Only the person who made the VD order, can log into the VD. The service is not accessible for any other team members.*
+
  - Run the software in a remote and powerful machine.
  - Teach students Linux internals.
 
