@@ -230,6 +230,16 @@ We also strongly suggest to fill also VPC description field. Other input fields 
 
 > *NB! Provisioned VPC resource package will be automatically enabled for the project as a VM provider! For other projects it can be enabled by the organization owner under Provider management within organization workspace.*
 
+## Project allocation reports
+> *To see the monthly project allocation usage*
+
+- **Step 1:** Login to ETAIS self-service portal using MyAccessID 
+- **Step 2:** Open your project in ETAIS Portal.
+- **Step 3:** Select the allocation that usage report you would like to see.
+- **Step 4:** Click "Usage" to display the report for this allocation. Use tabs "CPU Allocation", "GPU Allocation", and "Storage Allocation" to see the details. 
+
+![Project allocation reports](../images/project-allocation-reports.jpg)
+
 ## Adding a VM
 > *Projects need to have at least one VPC resource package enabled, before any virtual machines can be created!*
 
