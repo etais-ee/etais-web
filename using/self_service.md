@@ -241,67 +241,77 @@ We also strongly suggest to fill also VPC description field. Other input fields 
 ![Project allocation reports](../images/project-allocation-reports.jpg)
 
 ## Adding a VM
-> *Projects need to have at least one VPC resource package enabled, before any virtual machines can be created!*
+> *Projects need to have at least one VPC resource package enabled before any virtual machines can be created! You can follow  [https://etais.ee/self_service/#adding-a-vpc](this guide) to add a new VPC*
 
-VMs can be added by selecting "Resources: Virtual machines" from the menu and clicking on "Add virtual machine" button. 
+VMs can be added by clicking to "Marketplace" and selecting "Virtual machines" from the menu to go to the list of Virtual machines. 
 
-![Adding a VM](../images/project-vm-add.png)
+![Adding a VM](../images/project-vm-add-marketplace.jpg)
 
-In case you have multiple VPC providers enabled within the project you will need to select also VM provider. "Create Openstack instance" form requires VM name and selection of VM image.
+Ordering a Virtual Machine requires a VM name and selection of a VM image.
 
-![Adding a VM - step 1](../images/project-vm-add-form-step1.png)
+![Adding a VM - step 1](../images/project-vm-add-form-step1.jpg)
 
-Please select operating system for a VM and click on "Select" button, returning to the form.
+Please select the operating system for a VM and click on the "Select" button, returning to the form.
 
-![Adding a VM - step 2](../images/project-vm-add-form-step2.png)
+![Adding a VM - step 2](../images/project-vm-add-form-step2.jpg)
 
-It is mandatory to select initial VM resource profile ie flavor, by clicking on "Flavor: Show choices" selector.
+Selecting the initial VM resource profile ie flavor, by clicking on the "Flavor: Show choices" selector is mandatory.
 
-![Adding a VM - step 3](../images/project-vm-add-form-step3.png)
+![Adding a VM - step 3](../images/project-vm-add-form-step3.jpg)
 
-Flavor will set initial resource profile for a VM - how much RAM, CPU cores and storage it will have.
+The flavor will set the initial resource profile for a VM - how much RAM, CPU cores, and storage it will have. 
 
-> *NB! VM images contain their minimum requirements information and non-matching VM flavors are disabled automatically!*
+> *NB! VM images contain their minimum requirements information, and non-matching VM flavors are disabled automatically!*
 
-![Adding a VM - step 4](../images/project-vm-add-form-step4.png)
+![Adding a VM - step 4](../images/project-vm-add-form-step4.jpg)
 
-Selecting VM flavor will also update "System volume size" with the option to override it manually (to higher custom value). Data volume is always provisioned with a VM and its size can be customized and incremented in 1GB steps. 
+Selecting VM flavor will also update "System volume size" with the option to override it manually (to a higher custom value). Data volume is always provisioned with a VM, and its size can be customized and incremented in 1GB steps. System volume must be at least 10GB. Whereas System volume and Data volume must be equal to or less than Storage VPC.
 
-By default provisioned virtual machines expect users to login using SSH keys. Initial SSH key for a login should be selected by clicking on "SSH public key: Show choices" selector.
+![Adding a VM - step 5](../images/project-vm-add-form-step5.jpg)
 
-> *There has to be at least one SSH public key added to user profile for it to appear in SSH key selector list!*
 
-![Adding a VM - step 5](../images/project-vm-add-form-step5.png)
+By default, provisioned virtual machines expect users to log in using SSH keys. The initial SSH key for login should be selected by clicking on the "SSH public key: Show choices" selector.
 
-> *NB! Different VM images have different default user names for SSH logins! For example: CentOS images use "centos" user, Ubuntu images use "ubuntu" user, Windows images use "Administrator" user.*
+> *There has to be at least one SSH public key added to the user profile for it to appear in the SSH key selector list!*
 
-![Adding a VM - step 6](../images/project-vm-add-form-step6.png)
+> *NB! Different VM images have different default user names for SSH logins! For example, CentOS images use the "centos" user, Ubuntu images use the "ubuntu" user, and Windows images use the "Administrator" user.*
 
-By default no incoming connections will be allowed for a VM. Predefined Security Groups that contain firewall rules must be linked to a VM in order to open up access (like ssh, http, etc).
+![Adding a VM - step 6](../images/project-vm-add-form-step6.jpg)
 
-> *NB! VM create form will automatically include "default" security group which enables egress (ie outgoing) traffic for a VM and which is required in order to reply to any of the incoming packets!* 
 
-![Adding a VM - step 7](../images/project-vm-add-form-step7.png)
+While selecting “System volume type” it should be taken into consideration that prod2 is for production, whereas scratch is for testing purposes only.
+> *For production prod2 is recommended because technology used by scratch is not under official support
 
-VM needs to be connected to at least one of the VPC (internal) networks and also to external network via floating IP - if extenal/public access to VM is required. 
+![Adding a VM - step 7](../images/project-vm-add-form-step7.jpg)
 
-> *Floating IP is technically realized as 1:1 NAT between VM internal ip and public network ip.*
 
-![Adding a VM - step 8](../images/project-vm-add-form-step8.png)
+By default, no incoming connections will be allowed for a VM. Predefined Security Groups that contain firewall rules must be linked to a VM in order to open up access (like ssh, HTTP, etc.). By clicking the “Details” button, you can see the details about the available Security Groups. Security Groups can be added while ordering the VM or afterward by editing.
 
-We strongly suggest to add also VM description. In order to provision the VM please click on "Purchase" button.
+> *NB! VM create form will automatically include a "default" security group that enables egress (ie outgoing) traffic for a VM and which is required in order to reply to any of the incoming packets!* 
 
-> *On the right pane there will be "Checkout summary" with the purchase overview and indicative VM cost (as part of VPC package cost).*
+![Adding a VM - step 8](../images/project-vm-add-form-step8.jpg)
 
-![Adding a VM - step 9](../images/project-vm-add-form-step9.png)
 
-VM should reach into "Active" status when successfully provisioned. "Access" field will show IP address to access VM over SSH (Linux) or over RDP (Windows). 
+VM needs to be connected to at least one of the VPC (internal) networks and an external network via floating IP - if external/public access to VM is required. 
+
+> *Floating IP is technically realized as 1:1 NAT between VM internal IP and public network IP.*
+
+![Adding a VM - step 9](../images/project-vm-add-form-step9.jpg)
+
+We strongly suggest also adding VM description. In order to provision the VM, please click on the "Add to card" button.
+
+> *On the right pane, there will be a "Checkout summary" with the purchase overview and indicative VM cost (as part of the VPC package cost).*
+
+![Adding a VM - step 10](../images/project-vm-add-form-step10.jpg)
+
+VM should reach into "Active" status when successfully provisioned. The "Access" field will show the IP address to access VM over SSH (Linux) or over RDP (Windows). 
 
 > *VM access over SSH or RDP should be permitted by Security Groups linked to VM!*
 
-> *OpenStack VPC VMs will have additional 64MB virtual hard disk attached to VM which functions as cloud-init configuation drive (not supported by self-service yet, only user-data support at the moment).*
+> *OpenStack VPC VMs will have an additional 64MB virtual hard disk attached to VM, which functions as a cloud-init configuration drive (not supported by self-service yet, only user-data support at the moment).*
 
-![VM details](../images/project-vm-details.png)
+![VM details](../images/project-vm-details.jpg)
+
 
 ## Adding a Virtual Desktop
 ### 1. Virtual Desktop Overview
