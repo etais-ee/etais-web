@@ -242,7 +242,7 @@ We also strongly suggest to fill also VPC description field. Other input fields 
 
 ## Adding a VM
 > *Projects need to have at least one VPC resource package enabled before any virtual machines can be created! You can follow 
->  [https://etais.ee/self_service/#adding-a-vpc](this guide) to add a new VPC*
+>  [this guide](https://etais.ee/self_service/#adding-a-vpc) to add a new VPC*
 
 VMs can be added by clicking to "Marketplace" and selecting "Virtual machines" from the menu to go to the list of Virtual machines. 
 
