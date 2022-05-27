@@ -241,7 +241,8 @@ We also strongly suggest to fill also VPC description field. Other input fields 
 ![Project allocation reports](../images/project-allocation-reports.jpg)
 
 ## Adding a VM
-> *Projects need to have at least one VPC resource package enabled before any virtual machines can be created! You can follow  [https://etais.ee/self_service/#adding-a-vpc](this guide) to add a new VPC*
+> *Projects need to have at least one VPC resource package enabled before any virtual machines can be created! You can follow 
+>  [https://etais.ee/self_service/#adding-a-vpc](this guide) to add a new VPC*
 
 VMs can be added by clicking to "Marketplace" and selecting "Virtual machines" from the menu to go to the list of Virtual machines. 
 
@@ -280,6 +281,7 @@ By default, provisioned virtual machines expect users to log in using SSH keys. 
 
 
 While selecting “System volume type” it should be taken into consideration that prod2 is for production, whereas scratch is for testing purposes only.
+
 > *For production prod2 is recommended because technology used by scratch is not under official support
 
 ![Adding a VM - step 7](../images/project-vm-add-form-step7.jpg)
