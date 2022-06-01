@@ -252,7 +252,7 @@ Ordering a Virtual Machine requires a VM name and selection of a VM image.
 
 ![Adding a VM - step 1](../images/project-vm-add-form-step1.jpg)
 
-Please select the operating system for a VM and click on the "Select" button, returning to the form.
+Please select the "Image" for a VM and click on the "Select" button, returning to the form.
 
 ![Adding a VM - step 2](../images/project-vm-add-form-step2.jpg)
 
@@ -260,13 +260,13 @@ Selecting the initial VM resource profile ie flavor, by clicking on the "Flavor:
 
 ![Adding a VM - step 3](../images/project-vm-add-form-step3.jpg)
 
-The flavor will set the initial resource profile for a VM - how much RAM, CPU cores, and storage it will have. 
+The flavor will set the initial resource profile for a VM - how much RAM, vCPU cores, and storage it will have. 
 
 > *NB! VM images contain their minimum requirements information, and non-matching VM flavors are disabled automatically!*
 
 ![Adding a VM - step 4](../images/project-vm-add-form-step4.jpg)
 
-Selecting VM flavor will also update "System volume size" with the option to override it manually (to a higher custom value). Data volume is always provisioned with a VM, and its size can be customized and incremented in 1GB steps. System volume must be at least 10GB. Whereas System volume and Data volume must be equal to or less than Storage VPC.
+Selecting VM flavor will also update "System volume size" with the option to override it manually (to a higher custom value). Data volume is always provisioned with a VM, and its size can be customized and incremented in 1GB steps. System volume must be at least 10GB, whereas System volume and Data volume must be equal to or less than VPC’s total Storage.
 
 ![Adding a VM - step 5](../images/project-vm-add-form-step5.jpg)
 
@@ -300,7 +300,7 @@ VM needs to be connected to at least one of the VPC (internal) networks and an e
 
 ![Adding a VM - step 9](../images/project-vm-add-form-step9.jpg)
 
-We strongly suggest also adding VM description. In order to provision the VM, please click on the "Add to card" button.
+We strongly suggest also adding VM description. In order to provision the VM, please click on the "Add to cart" button.
 
 > *On the right pane, there will be a "Checkout summary" with the purchase overview and indicative VM cost (as part of the VPC package cost).*
 
