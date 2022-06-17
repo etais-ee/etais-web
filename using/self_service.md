@@ -219,11 +219,9 @@ It is mandatory to input “Tenant name“ to order a VPC.
 
 Currently, there are three VPC component names listed: Cores, Ram, and Storage. For configuration of a VPC resource please fill in a suitable quantity for each component and click on the “Add to chart” button. Here by changing the quantities of components, you can see Prices accordingly per day, per 30 days, per 365 days, and finally the total price of the VPC.
 
-We also strongly suggest filling also the “Tenant description” field. 
+We also strongly suggest filling the “Tenant description” field. 
 
 ![Selecting VPC provider](../images/project-vpc-configuration1.jpg)
-
-> *NB! Provisioned VPC resource package will be automatically enabled for the project as a VM provider! For other projects, it can be enabled by the organization owner under Provider management within organization workspace.*
 
 To approve the configuration:
 
