@@ -207,26 +207,34 @@ Menu entries available within project dashboard:
 * **Team**: project team management
 
 ## Adding a VPC
-Virtual Private Cloud resource package can be added by selecting "Resources" and "Private Clouds" from the menu and clicking on "Add private cloud" button.
+Virtual Private Cloud (VPC) resource package can be added by clicking to “Marketplace” and selecting “Private Clouds”  from the menu to go to the list of  VPCs.
 
-![Add VPC](../images/project-vpc-add.png)
+![Add VPC](../images/project-vpc-marketplace.jpg)
 
-> *NB! There are several Virtual Private Cloud providers available from the Marketplace. You need to provision at least one VPC package
-from suitable provider in order to be able to create virtual machines.*
+> *NB! There are several Virtual Private Cloud providers available on the Marketplace. You need to provision at least one VPC package from a suitable provider in order to be able to create virtual machines.*
 
-![Selecting VPC provider](../images/project-vpc-add-provider-select.png)
+![Selecting VPC provider](../images/project-vpc-list-of-clouds.jpg)
 
-It is mandatory to input VPC Tenant name and choose initial resource package, by clicking on "VPC package: Show choices" selector.
+It is mandatory to input “Tenant name“ to order a VPC.
 
-![Adding VPC provider - step 1](../images/project-vpc-add-form-step1.png)
+Currently, there are three VPC component names listed: Cores, Ram, and Storage. For configuration of a VPC resource please fill in a suitable quantity for each component and click on the “Add to chart” button. Here by changing the quantities of components, you can see Prices accordingly per day, per 30 days, per 365 days, and finally the total price of the VPC.
 
-Currently there are four VPC resource packages categories listed: trial, small, medium and large. Each category can have several resources packages mapped. For selecting a VPC resource package please mark suitable package entry and click on "Select" button, returning to the previous form.
+We also strongly suggest filling also the “Tenant description” field. 
 
-![Adding VPC provider - step 2](../images/project-vpc-add-form-step2.png)
+![Selecting VPC provider](../images/project-vpc-configuration1.jpg)
 
-We also strongly suggest to fill also VPC description field. Other input fields are autofilled and can be optionally customized, if required. "Checkout summary" on the right pane will provide detailed overview of VPC resouce package purchase.
+> *NB! Provisioned VPC resource package will be automatically enabled for the project as a VM provider! For other projects, it can be enabled by the organization owner under Provider management within organization workspace.*
 
-![Adding VPC provider - step 3](../images/project-vpc-add-form-step3.png)
+To approve the configuration:
+
+a) If your role in the Project is Project Manager or System Administrator, please ask your ETAIS Organization Owner to approve the order.
+
+![Adding VPC provider - step 1](../images/project-vpc-purchase.jpg)
+
+b) If your role is Organization Owner you are able to complete the purchase to final approval (click the “Purchase” button). Hereafter the system will need a couple of minutes to execute the order (see the order status on the image below). Once the system changes the state to “Done”, your VPC is ready to use.
+
+
+![Adding VPC provider - step 3](../images/project-vpc-done.jpg)
 
 > *NB! Provisioned VPC resource package will be automatically enabled for the project as a VM provider! For other projects it can be enabled by the organization owner under Provider management within organization workspace.*
 
