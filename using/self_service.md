@@ -272,7 +272,7 @@ The flavor will set the initial resource profile for a VM - how much RAM, vCPU c
 
 ![Adding a VM - step 4](../images/project-vm-add-form-step4.jpg)
 
-Selecting VM flavor will also update "System volume size" with the option to override it manually (to a higher custom value). Data volume is always provisioned with a VM, and its size can be customized and incremented in 1GB steps. System volume must be at least 10GB, whereas System volume and Data volume must be equal to or less than VPC’s total Storage.
+Selecting VM flavor will also update "System volume size" with the option to override it manually (to a higher custom value). The size of "Data Volume" can be customized and incremented in 1GB steps. "System volume" must be at least 10GB, whereas "System volume" and "Data volume" must be equal to or less than VPC’s total Storage.
 
 ![Adding a VM - step 5](../images/project-vm-add-form-step5.jpg)
 
@@ -293,7 +293,7 @@ While selecting “System volume type” it should be taken into consideration t
 ![Adding a VM - step 7](../images/project-vm-add-form-step7.jpg)
 
 
-By default, no incoming connections will be allowed for a VM. Predefined Security Groups that contain firewall rules must be linked to a VM in order to open up access (like ssh, HTTP, etc.). By clicking the “Details” button, you can see the details about the available Security Groups. Security Groups can be added while ordering the VM or afterward by editing.
+By default, no incoming connections will be allowed for a VM. Predefined Security Groups (firewall rules) must be linked to a VM in order to open up access (like ssh, HTTP, etc.). By clicking the “Details” button, you can see the details about the available Security Groups. Security Groups can be added while ordering the VM or afterward by editing.
 
 > *NB! VM create form will automatically include a "default" security group that enables egress (ie outgoing) traffic for a VM and which is required in order to reply to any of the incoming packets!* 
 
