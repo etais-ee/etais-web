@@ -288,7 +288,7 @@ By default, provisioned virtual machines expect users to log in using SSH keys. 
 
 While selecting “System volume type” it should be taken into consideration that prod2 is for production, whereas scratch is for testing purposes only.
 
-> *For production prod2 is recommended because technology used by scratch is not under official support
+> *For production prod2 is recommended because technology used by scratch is not under official support*
 
 ![Adding a VM - step 7](../images/project-vm-add-form-step7.jpg)
 
@@ -418,7 +418,7 @@ VM should reach into "Active" status when successfully provisioned. The "Access"
 
 ### 2.2 Accessing the Virtual Desktop
 
-- **Step 1:** Access URL [https://desktop.hpc.ut.ee/](https://desktop.hpc.ut.ee/) with your UT credentials.
+- **Step 1:** Access URL [https://desktop.hpc.ut.ee/](https://desktop.hpc.ut.ee/) with MyAccessID Service.
 
 Virtual Desktop demo can be reviewed [here](https://youtu.be/DCq_wRsP43Y).
 
