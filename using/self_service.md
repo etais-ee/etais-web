@@ -419,6 +419,9 @@ VM should reach into "Active" status when successfully provisioned. The "Access"
 ### 2.2 Accessing the Virtual Desktop
 
 - **Step 1:** Access URL [https://desktop.hpc.ut.ee/](https://desktop.hpc.ut.ee/) with MyAccessID Service.
+- You can find the guide on how to add your Identity Provider at the bottom of your screen. 
+
+![Picture](../images/vd-myaccessid.jpg)
 
 Virtual Desktop demo can be reviewed [here](https://youtu.be/DCq_wRsP43Y).
 
