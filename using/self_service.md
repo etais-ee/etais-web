@@ -281,7 +281,11 @@ By default, provisioned virtual machines expect users to log in using SSH keys. 
 
 > *There has to be at least one SSH public key added to the user profile for it to appear in the SSH key selector list!*
 
-> *NB! Different VM images have different default user names for SSH logins! For example, CentOS images use the "centos" user, Ubuntu images use the "ubuntu" user, and Windows images use the "Administrator" user.*
+> *NB! In order to log in to your newly created VM over SSH, you need to use a username depending on your choice of VM Image type and your ssh-rsa key-pair. By default password authentication is disabled. Default usernames for login are as follows:
++ CentOS images: centos
++ Ubuntu images: ubuntu
++ Debian images: debian
++ FreeBSD images: freebsd*
 
 ![Adding a VM - step 6](../images/project-vm-add-form-step6.jpg)
 
