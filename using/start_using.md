@@ -12,7 +12,7 @@ title: "Start using"
 ETAIS is intended for research communities in Estonia as well as R&D companies. To get access to the resources,
 an usage agreement must be made signed ETAIS and an organization requesting to join.
 
-> Please fill in a [form](https://hpc.ut.ee/getting-started/access/HPC-clusters-platforms?requested_service=ETAIS%20Self-Service) to gain access! 
+> Please fill in a [form](https://hpc.ut.ee/getting-started/access/HPC-services?requested_service=ETAIS%20Self-Service) to gain access! 
 
 Once an organization account has been created, provisioning and access to its resources is configured through
 the self-service portal. To access it you need an account from [TaaT](http://taat.edu.ee/) or
