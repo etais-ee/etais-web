@@ -437,32 +437,37 @@ Virtual Desktop demo can be reviewed [here](https://youtu.be/DCq_wRsP43Y).
 Rocket is a heterogeneous HPC cluster that currently consists of about 175 compute nodes, featuring almost 7000 cores, a bit over 40 terabytes of memory and 40 GPUs, interconnected by high-speed low-latency Infiniband networking. The cluster also utilizes two General Parallel File systems, which in sum total provide almost 10 petabytes of usable storage space.
 
 - To order a Rocket cluster account select "HPC" category in the Marketplace.
+
 ![Create Rocket](../images/rocket-marketplace.jpg)
 
 - Choose HPC Rocket
+
 ![Create Rocket](../images/rocket-marketplace2.jpg)
 
 
 - Once filled and validated “Allocation name” and “Allocation description” fields, click on “Add to cart” to proceed to provision.
+
 ![Create Rocket](../images/rocket-ordering-step1.jpg)
 
 - After the provisioning has started, you can see the details in the configuration detail view. Please review the request and if everything is correct, click “Purchase”.
+
 ![Create Rocket](../images/rocket-ordering-step2.jpg)
 
-- To finish ordering the account follow steps as in ("Adding a Virtual Desktop")[https://etais.ee/self_service/#adding-a-virtual-desktop] starting with step 5. 
+- To finish ordering the account follow steps as in ["Adding a Virtual Desktop"](https://etais.ee/self_service/#adding-a-virtual-desktop) starting with step 5. 
 Also you can find the guide for "Organization Owner Approving a Service Order" in the same section.
 
 
 
-## To add CPU and GPU memory limits:
+## Adding or changing SPU and GPU memory limits
 
-> *Please note! Only Staff users are allowed to add or change CPU and GPU memory limits.
+> *Please note! Only Staff users are allowed to add or change CPU and GPU memory limits.*
 
 - In order to get this action done, Organization owner or PI has to send request to support@hpc.ut.ee.
 
 
 
 ## VPC Security Groups management
+
 Security Groups are scoped and managed under VPC package. For managing Security Groups and their rules please go into VPC detailview by clicking on provisioned VPC package name.
 
 ![Creating SecGroup - step 1](../images/project-vpc-details.png)
