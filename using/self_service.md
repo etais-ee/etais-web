@@ -453,7 +453,7 @@ Rocket is a heterogeneous HPC cluster that currently consists of about 175 compu
 
 ![Create Rocket](../images/rocket-ordering-step2.jpg)
 
-- To finish ordering the account follow steps as in ["Adding a Virtual Desktop"](https://etais.ee/self_service/#adding-a-virtual-desktop) starting with step 5. 
+- To finish ordering the account follow steps as in ["Adding a Virtual Desktop"](https://etais.ee/self_service/#adding-a-virtual-desktop) starting with step 5 under "2. Ordering The Virtual Desktop Service". 
 Also you can find the guide for "Organization Owner Approving a Service Order" in the same section.
 
 
