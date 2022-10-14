@@ -440,7 +440,7 @@ Rocket is a heterogeneous HPC cluster that currently consists of about 175 compu
 
 ![Create Rocket](../images/rocket-marketplace.jpg)
 
-- Choose HPC Rocket
+- Choose the "Rocket (UT HPC)" from the HPC resources list.
 
 ![Create Rocket](../images/rocket-marketplace2.jpg)
 
