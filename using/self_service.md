@@ -453,16 +453,13 @@ Rocket is a heterogeneous HPC cluster that currently consists of about 175 compu
 
 ![Create Rocket](../images/rocket-ordering-step2.jpg)
 
-- To finish ordering the account follow steps as in ["Adding a Virtual Desktop"](https://etais.ee/self_service/#adding-a-virtual-desktop) starting with step 5 under "2. Ordering The Virtual Desktop Service". 
-Also you can find the guide for "Organization Owner Approving a Service Order" in the same section.
+- To finish ordering the account, please follow the same steps as in ["Adding a Virtual Desktop"](https://etais.ee/self_service/#adding-a-virtual-desktop) starting with step 5 under "2. Ordering The Virtual Desktop Service".  The resource (Rocket) order has to be approved by the Organization Owner. You can find the guide for “Organization Owner Approving a Service Order” in the same section.
 
-
-
-## Adding or changing SPU and GPU memory limits
+## Adding or changing CPU and GPU memory limits
 
 > *Please note! Only Staff users are allowed to add or change CPU and GPU memory limits.*
 
-- In order to get this action done, Organization owner or PI has to send request to support@hpc.ut.ee.
+- Please send the respective request to support@hpc.ut.ee and CC your PI or Organization Owner. 
 
 
 
