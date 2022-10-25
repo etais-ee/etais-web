@@ -268,6 +268,8 @@ Selecting the initial VM resource profile ie flavor, by clicking on the "Flavor:
 
 The flavor will set the initial resource profile for a VM - how much RAM, vCPU cores, and storage it will have. 
 
+> *NB! We have currently limited GPU resource available for Virtual Machines, therefore please check the GPU availability with HPC support: [support@hpc.ut.ee](mailto:support@hpc.ut.ee).*
+
 > *NB! VM images contain their minimum requirements information, and non-matching VM flavors are disabled automatically!*
 
 ![Adding a VM - step 4](../images/project-vm-add-form-step4.jpg)
@@ -548,23 +550,3 @@ Once the cluster is active, you can also download kubeconfig file to access and 
 Please use Actions -> Generate Kubeconfig file for that.
 
 ![Kubeconfig](../images/k8s/k8s-detail-6.png)
-
-## Using GPU accelerator in a VM
-
-GPU servers can be added by selecting  “Resources” and “VMs” from the menu and clicking on “Add resource” button.
-
-![Add-resource](../images/add_resource.JPG)
-
-Once new resource is added, select GPU serverid UT HPC
-
-![Add-GPU](../images/add_gpu.JPG)
-
-Please choose name and plan for the offering, select correct tenant and click "Add to cart".
-
-![GPU-description](../images/gpu_description.JPG)
-
-Please review the request and if everything is correct, click "Purchase".
-
-![GPU-review](../images/GPU_review.JPG)
-
-Now your request will be processed and you should receive notification about the acceptance soon.
