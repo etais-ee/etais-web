@@ -431,7 +431,7 @@ VM should reach into "Active" status when successfully provisioned. The "Access"
 
 ![Picture](../images/vd-myaccessid.jpg)
 
-Virtual Desktop demo can be reviewed [here](https://youtu.be/DCq_wRsP43Y).
+Virtual Desktop demo can be reviewed [here](https://youtu.be/3pB_P6QYlsE).
 
 
 ## Adding HPC cluster nodes / Rocket cluster account
