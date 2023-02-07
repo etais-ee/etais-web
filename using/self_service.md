@@ -461,7 +461,6 @@ Rocket is a heterogeneous HPC cluster that currently consists of about 175 compu
 
 - Go to your Account and choose FreeIPA and click create.
 
-![Create Rocket](../images/rocket-access-step1.jpg) 
 
 ![Create Rocket](../images/rocket-access-step2.jpg) 
 
