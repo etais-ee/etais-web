@@ -457,6 +457,25 @@ Rocket is a heterogeneous HPC cluster that currently consists of about 175 compu
 
 - To finish ordering the account, please follow the same steps as in ["Adding a Virtual Desktop"](https://etais.ee/self_service/#adding-a-virtual-desktop) starting with step 5 under "2. Ordering The Virtual Desktop Service".  The resource (Rocket) order has to be approved by the Organization Owner. You can find the guide for “Organization Owner Approving a Service Order” in the same section.
 
+- To access Rocket first, please ensure that you have SSH key available in your account. 
+
+- Go to your Account and choose FreeIPA and click create.
+
+![Create Rocket](../images/rocket-access-step1.jpg) 
+
+![Create Rocket](../images/rocket-access-step2.jpg) 
+
+> *Please note! The user should be a member of the project that is using the required resource.*
+
+![Create Rocket](../images/rocket-access-step3.jpg) 
+
+
+> *Please note! Synchronization may take up to five minutes.*
+
+
+![Create Rocket](../images/rocket-access-step4.jpg) 
+
+
 ## Adding or changing CPU and GPU memory limits
 
 > *Please note! Only Staff users are allowed to add or change CPU and GPU memory limits.*
