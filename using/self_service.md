@@ -12,9 +12,13 @@ title: "ETAIS Self-Service Guide"
 {% include toc.html %}
 
 ## Overview
-ETAIS self-service portal is a single entry point for provisioning and managing computational and storage resources
-shared by ETAIS consortium members - UT, TTU, NICPB and HITSA - as well as public cloud providers. It is aimed at
-research groups affiliated with Estonian research and development institutions from both public and private sector.
+
+ETAIS self-service portal is a single entry point for provisioning and managing computational and storage resources shared by ETAIS consortium members:
+
+* University of Tartu: High Performance Computing Centre
+* Tallinn University of Technology: TalTech High Performance Computing Centre
+* National Institute of Chemical Physics and Biophysics: Laboratory of High Energy and Computational Physics
+* Estonian Center of Analytical Chemistry
 
 > Access it at [https://minu.etais.ee](https://minu.etais.ee).
 
