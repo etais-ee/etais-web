@@ -60,13 +60,9 @@ resources - like RAM, CPU, storage volumes and network resources - required to r
 * Private clouds are accounted on a daily basis with the price of the most expensive set of limits during that day.
 
 ## User accounts
-ETAIS self-service portal login and authentication method MyAccessID is provided by [GÉANT](https://about.geant.org/). MyAccessIDis recognized as a European-wide Research and Education Networks authentication provider that enables private enterprise member sign-up as well. 
+ETAIS self-service portal login and authentication method MyAccessID is provided by [GÉANT](https://about.geant.org/). MyAccessID is recognized as a European-wide Research and Education Networks authentication provider that enables private enterprise member sign-up as well. 
 
 Please see the sign-up guide [here](https://puhuri.neic.no/user_guides/myaccessid_registration/).
-
-![Login](../images/login.png)
-
-> *NB! Users need to accept Terms of Service presented on the first login for account activation!*
 
 ## Workspaces
 ETAIS self-service is built around the concept of workspaces. Workspace defines structural context for the 
