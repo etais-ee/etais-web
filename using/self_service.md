@@ -60,13 +60,9 @@ resources - like RAM, CPU, storage volumes and network resources - required to r
 * Private clouds are accounted on a daily basis with the price of the most expensive set of limits during that day.
 
 ## User accounts
-ETAIS self-service portal supports user accounts coming from [TaaT](http://taat.edu.ee) federated identity system,
-which allows to use home organisation accounts for login. Most of the larger education and research institutions in
-Estonia are connected to TaaT already.
+ETAIS self-service portal login and authentication method MyAccessID is provided by [GÉANT](https://about.geant.org/). MyAccessIDis recognized as a European-wide Research and Education Networks authentication provider that enables private enterprise member sign-up as well. 
 
-Alternatively, one can login using an account from [eduGAIN](https://www.geant.org/Services/Trust_identity_and_security/eduGAIN).
-
-Self-Service Portal is available from: [https://minu.etais.ee](https://minu.etais.ee)
+Please see the sign-up guide [here](https://puhuri.neic.no/user_guides/myaccessid_registration/).
 
 ![Login](../images/login.png)
 
