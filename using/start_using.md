@@ -15,5 +15,4 @@ an usage agreement must be made signed ETAIS and an organization requesting to j
 > Please fill in a [form](https://hpc.ut.ee/getting-started/access/HPC-services?requested_service=ETAIS%20Self-Service) to gain access! 
 
 Once an organization account has been created, provisioning and access to its resources is configured through
-the self-service portal. To access it you need an account from [TaaT](http://taat.edu.ee/) or
-[eduGAIN](https://www.geant.org/Services/Trust_identity_and_security/eduGAIN).
+the self-service portal. To access it you need an account from [MyAccessID](https://wiki.geant.org/display/MyAccessID/MyAccessID+Home).
