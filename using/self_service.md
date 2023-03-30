@@ -118,11 +118,6 @@ Access is done by clicking on user avatar and selecting one of the entries from 
 
 ![User profile link](../images/user-profile-link.png)
 
-
-## Adding a public SSH key to a profile
-Please follow the steps described in [Puhuri documentation in section "Adding SSH key to MyAccessID profile"](https://puhuri.neic.no/user_guides/myaccessid-ssh-key/). 
-Puhuri is ETAIS self-serfvice portal technical platform.
-
 ### Organization and project workspace selector
 Navigation between different organization and project workspaces are done with the help of the workspace selector available in the header row.
 
@@ -183,6 +178,10 @@ the joining process invited user needs to login with the URL provided in the inv
 "Invite user" form requires target user email address, initial project and role selection. Submit form by clicking on "Invite user" button.
 
 ![Invite creation form](../images/org-team-invite-form.png)
+
+### Adding a public SSH key to a profile
+Please follow the steps described in [Puhuri documentation in section "Adding SSH key to MyAccessID profile"](https://puhuri.neic.no/user_guides/myaccessid-ssh-key/). 
+Puhuri is ETAIS self-serfvice portal technical platform.
 
 ## Project workspace
 Project workspace provides tools and information required for day-to-day work and oversight over the managed IT infrastructure. Access is done via workspace selector in the top section of user interface.
