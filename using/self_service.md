@@ -179,7 +179,7 @@ the joining process invited user needs to login with the URL provided in the inv
 
 ![Invite creation form](../images/org-team-invite-form.png)
 
-### Adding a public SSH key to a profile
+## Adding a public SSH key to a profile
 Please follow the steps described in [Puhuri documentation in section "Adding SSH key to MyAccessID profile"](https://puhuri.neic.no/user_guides/myaccessid-ssh-key/). 
 Puhuri is ETAIS self-serfvice portal technical platform.
 
