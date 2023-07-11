@@ -23,4 +23,4 @@ title: "ETAIS resources"
 
 
 ** Guides **
--- [All user guides](https://hpc.ut.ee/en/guides/ "UT HPC guides")  
+-- [All user guides](https://docs.hpc.ut.ee/ "UT HPC guides")  
