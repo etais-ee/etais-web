@@ -6,7 +6,7 @@ title: "Using ETAIS"
 
 <a href="../terms_of_use/" class="btn-success"> Terms of use</a>
 <a href="../start_using/" class="btn-info"> Start using</a>
-<a href="../self_service/" class="btn-info"> Self-service portal</a>
+<a href="https://docs.hpc.ut.ee/public/ETAIS/overview/"  target="_blank" class="btn-info"> Self-service guide</a>
 <a href="../openstack_flavors/" class="btn-info"> ETAIS flavors</a>
 
 ## Terms of Use of the ETAIS self-service portal
