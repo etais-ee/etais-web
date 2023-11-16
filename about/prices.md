@@ -41,4 +41,5 @@ title: "About ETAIS"
 
    
 * Accounting of the use the computing servers is based on the amount of memory (with 1 unit being equal to 6 GB of RAM/h) and processors (with 1 unit being equal to 1 core hour) allocated to the user’s job(s).
+  
 ** For example, in case of a virtual server m.xsmall flavor with 1 processor core, 1GB of ram and 10GB of SSD storage space allocated for it, will cost 1*0.003*24*365 = 26 euros per year for the CPU and 1*0.0013*24*365 = 11 euros per year for RAM and 1/10*0.138*24*365 = 120 euros per year for the storage space
