@@ -12,7 +12,7 @@ If you are interested please reply to ilja@etais.ee, skype: ilja_l .
 
 Location: University of Tartu, partially remote work
 
-Salary: 2500-3500 EUR (can be negotiated depending on skills and experience, especially if you have also Python backend dev skills)
+Salary: starting from 3000 EUR (can be negotiated depending on skills and experience, especially if you have also Python backend dev skills)
 
 ## Needed skills
 
@@ -43,5 +43,4 @@ All documentation and specifications are in English.
 
 ETAIS is Estonian National Scientific Infrastructure, providing services for most of the Estonian data-intensive R&D activities. To streamline experience, ETAIS has joined development of the self-service platform for researchers, communities and operators - codenamed Waldur (https://github.com/opennode/waldur-homeport).
 
-Waldur is a platform for aggregating different online services (IaaS, PaaS and SaaS) into a common service management plane for delivery to the end users in a self-service manner. Within ETAIS, we work on integration of High Performance Computing services both in Estonia and beyond - including upcoming supercomputer LUMI, which will be built in Finland as a joint effort of several countries under EuroHPC umbrella.
-
+Waldur is a platform for aggregating different online services (IaaS, PaaS and SaaS) into a common service management plane for delivery to the end users in a self-service manner. Within ETAIS, we work on the integration of High-Performance Computing services both in Estonia and beyond. Waldur is currently used by several countries worldwide as a government cloud platform and HPC resource allocation solution (one of these is Europe's largest supercomputer - LUMI).
