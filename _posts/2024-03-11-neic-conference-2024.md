@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "NeIC 2024 Conference "Nordic e-Infrastructure Tomorrow""
+title: "NeIC 2024 Conference Nordic e-Infrastructure Tomorrow"
 ---
 
 The NeIC 2024 conference in Tallinn on May 27-29 brings together e-infrastructure experts, researchers, policymakers, and e-infrastructure providers from the Nordics and beyond.
