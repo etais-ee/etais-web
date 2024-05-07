@@ -26,7 +26,7 @@ In the case of a public institution or private organization when the right of re
 **3. When can I start using ETAIS infrastructure?**
 
 Access to the resources is granted through the queue system to balance the load and access between different users.
-In order to get your job in the queue, it has to be created and queued by the rules specified in the user guides (https://etais.ee/self_service/).
+In order to get your job in the queue, it has to be created and queued by the rules specified in the [user guides](https://docs.hpc.ut.ee/public/ETAIS/overview/).
 User groups might also be assigned a priority mark which can also change the order of the queue.
 
 **4. Service providers’ rights and responsibilities**
