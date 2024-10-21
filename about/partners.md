@@ -30,6 +30,6 @@ title: "About ETAIS"
 - OpenStack-based cloud service
 - ETAIS self-service portal
 
-**The Education and Youth Board (Harno)**
+**Ministry of Education and Research (HTM)**
 
 - providing TAAT authorisation service  
