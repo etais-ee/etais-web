@@ -26,7 +26,7 @@ E-mail: lauri.anton@taltech.ee
 Mario Kadastik   
 E-mail: mario.kadastik@cern.ch
 
-**The Education and Youth Board (Harno)**
+**Ministry of Education and Research (HTM)**
 
-Valmar Kuristik   
-E-mail: valmar.kuristik@eenet.ee
+Aile Tamm   
+E-mail: aile.tamm@hm.ee
