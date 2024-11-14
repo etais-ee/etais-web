@@ -6,41 +6,51 @@ title: "Jobs"
 
 We are looking for:
 
-# Senior frontend (ReactJS) developer for open-source project
+# Technical Support Specialist (L1)
 
-If you are interested please reply to ilja@etais.ee, skype: ilja_l .
+If you are interested please contact: etais@etais.ee, ATTN: Anne Vomm
 
-Location: University of Tartu, partially remote work
+Employer: HPC Center, Institute of Computer Science, University of Tartu
 
-Salary: starting from 3000 EUR (can be negotiated depending on skills and experience, especially if you have also Python backend dev skills)
+Application deadline: 30.11.2024
 
-## Needed skills
+## Key Responsibilities:
 
-- ReactJS (we do have a bit of legacy code in AngularJS, so knowledge of that is a plus)
-- Git (preferably also experience with gitow)
-- Good taste and designing skills
-- Experience with integration of REST services, data visualisation
-- English language on a good level
-- Love of simple UX
-- Experience with cloud services (e.g. AWS, Digital Ocean, Github).
+- Provide first-level technical support for end-users of HPC services, ensuring a high level of customer satisfaction. Some examples:
+  - Create user accounts
+  - Manage user access to systems and data
+  - Update compute quotas 
+- Update and maintain user guidelines and documentation.
+- Take detailed notes during team meetings and publish using Markdown.
+- Assist in the onboarding of new users.
+- Prepare training materials.
+- Collaborate with other support agents and departments to resolve complex issues.
 
-## Useful skills
 
-- Knowledge of the devops/sysadmin domain
-- Understanding of the issues that system operators are facing
-- Previous experience with creation of responsive applications
-- Python + Django development skills.
-- What we offer
-- Challenging and interesting project using latest technologies with proper devops support. Agile team and ability to quickly see if what you are doing makes sense via user feedback. Karma improvements due to participation in open-source project. Stable paycheck and options for growth depending on the results of collaboration.
+## Required Skills and Qualifications:
 
-# Work
+- Bachelor’s degree (or in progress) in Computer Science, Information Technology, or relevant work experience in a similar field.
+- Strong foundational knowledge of computers, software, and troubleshooting techniques.
+- Proven problem-solving skills with the ability to efficiently identify and resolve common customer issues.
+- Excellent communication skills, with the ability to articulate complex information clearly and concisely, both verbally and in writing.
+- Demonstrated empathy and patience in handling customer concerns.
+- Effective time management skills, with the ability to prioritize tasks and manage a high volume of inquiries.
+- Team-oriented with a proven track record of collaborative problem-solving.
+- Minimum B2 level verbal and written English and Estonian.
 
-We are looking for an experienced front-end developer to join our development team. You’ll be working on extending the client-facing part of the product, designing the architecture of the web application and helping with feature definition. And naturally writing super-elegant code covered with unit and e2e tests.
 
-All documentation and specifications are in English.
+## Preferred Skills:
 
-# About project
+- Experience with high-performance computing environments.
+- Familiarity with support ticketing systems.
+- Basic understanding of networking, software, and hardware issues related to HPC.
 
-ETAIS is Estonian National Scientific Infrastructure, providing services for most of the Estonian data-intensive R&D activities. To streamline experience, ETAIS has joined development of the self-service platform for researchers, communities and operators - codenamed Waldur (https://github.com/opennode/waldur-homeport).
+## What We Offer:
 
-Waldur is a platform for aggregating different online services (IaaS, PaaS and SaaS) into a common service management plane for delivery to the end users in a self-service manner. Within ETAIS, we work on the integration of High-Performance Computing services both in Estonia and beyond. Waldur is currently used by several countries worldwide as a government cloud platform and HPC resource allocation solution (one of these is Europe's largest supercomputer - LUMI).
+- A dynamic and supportive work environment.
+- Many opportunities for professional development and training.
+- Competitive salary and benefits package.
+- Best office in town.
+- Italian fruits on the house.
+- Days full of jokes and laughter with colleagues.
+
