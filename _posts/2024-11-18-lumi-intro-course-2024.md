@@ -18,4 +18,6 @@ In this training, you will:
  
 The course is intended for users who have taken a previous general HPC introduction course or already have experience with computing on HPC clusters.
  
-Read more and register here! Registration remains open until 4 December at 16:00 EET.
+**[Read more and register here!](https://www.lumi-supercomputer.eu/events/lumi-intro-dec24/)**
+
+Registration remains open until 4 December at 16:00 EET.
